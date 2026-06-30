@@ -2,14 +2,23 @@
 version: 1
 project:
   id: dc304616-fd17-43e8-9e66-338461647557
-  # title:
-  # description:
-  # keywords: []
+  title: Cours de Physique  
+  description: Cours de Physique numérique
+  keywords:
+    - physique
+    - python
+  authors:
+    - name: Coralie Thieulin 
+      affiliation: Enseignante physique, ECE
+    - name: Samira Dedecker
+      affiliations: Enseignante physique, ECE
+    - name: Eduardo Guzman 
+      affiliations: Invervenant Informatique, Innovamics
   # authors: []
   github: https://github.com/ECE-Ecole-Ingenieurs/cours-physique
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    logo: media/ece-logo.png
+  #  favicon: favicon.ico

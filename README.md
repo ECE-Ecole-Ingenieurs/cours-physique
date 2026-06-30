@@ -1,6 +1,6 @@
-# Physique avec Python — ECE
+# Cours de phyisque
 
-Cours et les travaux pratiques du cours de physique ING 1. 
+Cours et travaux pratiques du cours de physique ING 1. 
 
 ## Structure
 
