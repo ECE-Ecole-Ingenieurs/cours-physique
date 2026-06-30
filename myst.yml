@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: dc304616-fd17-43e8-9e66-338461647557
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/ECE-Ecole-Ingenieurs/cours-physique
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
