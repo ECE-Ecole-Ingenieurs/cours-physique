@@ -187,7 +187,9 @@ est usuellement notée : $\overrightarrow{p}$.
 Soit $M$ un point matériel de masse $m$ et de vitesse $\overrightarrow{v}(M)$.
 Sa quantité de mouvement est alors donnée par :
 
-$$ \overrightarrow{p}(M) = m\overrightarrow{v}(M) $$
+$$
+\overrightarrow{p}(M) = m\overrightarrow{v}(M)
+$$
 
 La quantité de mouvement est donc une grandeur physique qui augmente avec la
 vitesse d'un corps mais aussi avec la masse. La définition que nous venons de
@@ -218,14 +220,20 @@ deux autres lois.
 
 Soit deux points interagissant l'un sur l'autre, on a :
 
-$$ {\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1} $$
+$$
+{\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1}
+$$
 
 ou
 
-$$ \left\| {\overrightarrow{F}}_{1/2} \right\| = \left\|
-{\overrightarrow{F}}_{2/1} \right\| $$
+$$
+\left\|
+{\overrightarrow{F}}_{1/2} \right\| = \left\| {\overrightarrow{F}}_{2/1}
+\right\|
+$$
 
-:::{prf:example} LE SYSTEME ISOLE :label: systeme-isole
+:::{prf:example} LE SYSTEME ISOLE
+:label: systeme-isole
 
 Considérons deux points matériels (notés 1 et 2) isolés de l'extérieur. Cela
 veut dire qu'aucune force extérieure ne s'applique et ne peut s'appliquer sur le
@@ -261,9 +269,10 @@ Comme ${\overrightarrow{F}}_{1/2} + {\overrightarrow{F}}_{2/1} =
 \overrightarrow{0}$, on obtient alors que $\frac{d\overrightarrow{p}}{dt} =
 \overrightarrow{0}.$
 
-**Conclusion**: dans un système isolé de deux points, il n'y a pas de variation
-de quantité de mouvement. Elle est conservée au cours du temps :
-$\overrightarrow{p} = \overrightarrow{cste}$. :::
+**Conclusion**: dans un système isolé de deux points, il n'y a pas de variation de
+quantité de mouvement. Elle est conservée au cours du temps :
+$\overrightarrow{p} = \overrightarrow{cste}$.
+:::
 
 Il est assez facile généraliser ce problème à un système fermé de N points
 matériels. Ainsi en suivant le même raisonnement et en sommant les interactions
@@ -290,9 +299,9 @@ que :
 temps de la vitesse du point matériel.**
 ```
 
-C'est la **seconde loi de Newton**. Le terme de dérivée par rapport au temps de
-la vitesse représente l'altération du mouvement dont parlait Newton en 1686.
-Nous verrons par la suite que ce terme est égal à l'accélération du point.
+C'est la **seconde loi de Newton**. Le terme de dérivée par rapport au temps de la
+vitesse représente l'altération du mouvement dont parlait Newton en 1686. Nous
+verrons par la suite que ce terme est égal à l'accélération du point.
 
 La **première loi de Newton** se déduit immédiatement de cette seconde loi. En
 effet, si les forces se compensent (la force totale appliquée est égale à zéro),
@@ -308,25 +317,33 @@ moderne.
 
 **Première loi** :
 
-$$ \overrightarrow{F} = \overrightarrow{0} \Leftrightarrow \overrightarrow{\ v}
-= \overrightarrow{cste} $$
+$$
+\overrightarrow{F} = \overrightarrow{0} \Leftrightarrow
+\overrightarrow{\ v} = \overrightarrow{cste}
+$$
 
 Cette loi est aussi appelée **principe d'inertie**.
 
 **Deuxième loi** :
 
-$$ \overrightarrow{F} = m\frac{d\overrightarrow{\ v}}{dt} $$
+$$
+\overrightarrow{F} = m\frac{d\overrightarrow{\ v}}{dt}
+$$
 
 Cette loi est aussi appelée **principe fondamental de la dynamique (PFD)**
 
 **Troisième loi** :
 
-$$ {\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1} $$
+$$
+{\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1}
+$$
 
 et
 
-$$ \left\| {\overrightarrow{F}}_{1/2} \right\| = \left\|
-{\overrightarrow{F}}_{2/1} \right\| $$
+$$
+\left\| {\overrightarrow{F}}_{1/2} \right\| = \left\|
+{\overrightarrow{F}}_{2/1} \right\|
+$$
 
 Cette loi est aussi appelée **principe d'action-réaction**.
 
@@ -352,7 +369,8 @@ générale) est dans la Physique actuelle une forme restrictive du principe
 fondamental de la dynamique puisqu'elle n'est valable que pour des masses
 constantes au cours du temps. Néanmoins, dans le cadre d'un cours de mécanique
 classique, utiliser le principe fondamental de la dynamique ou la seconde loi de
-Newton est parfaitement équivalent. :::
+Newton est parfaitement équivalent.
+:::
 
 # Conditions d'application du PFD
 
@@ -360,14 +378,15 @@ Newton est parfaitement équivalent. :::
 
 Avant tout, il est essentiel de préciser la signification de ces notions.
 
-:::{prf:definition} Référentiel Un **référentiel** (=point de vue d'un
-observateur) est la référence que l'on utilise pour décrire un mouvement. Cette
-référence est constituée de l'ensemble des points qui sont immobiles pour
-l'observateur.
+:::{prf:definition} Référentiel
+Un **référentiel** (=point de vue d'un observateur) est la référence que l'on
+utilise pour décrire un mouvement. Cette référence est constituée de l'ensemble
+des points qui sont immobiles pour l'observateur.
 
 Cela peut être la salle de cours, une voiture, un train, un avion, la lune...
 
-Notation : $R$ :::
+Notation : $R$
+:::
 
 :::{prf:definition} Repère
 
@@ -383,7 +402,8 @@ Notation : $R(0,\overrightarrow{u},\overrightarrow{v},\overrightarrow{w})$
 
 Remarque : Dans l'absolu, il faudrait ajouter une base de temps au référentiel.
 Mais, comme en mécanique Newtonienne on considère le temps comme absolu, il
-n'est pas nécessaire de l'indiquer. :::
+n'est pas nécessaire de l'indiquer.
+:::
 
 :::{prf:definition} Systèmes de coordonnées
 
@@ -397,9 +417,11 @@ sphériques...).
 Dans tous les cas, il faudra définir trois vecteurs unitaires constituants la
 base de résolution du problème.
 
-:::{attention} Si la base de résolution est différente de celle liée au
-référentiel, ces vecteurs unitaires ne seront pas fixes dans le référentiel :
-leurs sens et directions vont suivre le mouvement. :::
+:::{attention}
+Si la base de résolution est différente de celle liée au référentiel,
+ces vecteurs unitaires ne seront pas fixes dans le référentiel : leurs sens et
+directions vont suivre le mouvement.
+:::
 
 ## Référentiel Inertiel (ou Galiléen)
 
@@ -451,13 +473,14 @@ exemple ou le référentiel terrestre), on peut en définir une infinité.
 En effet, tout référentiel R' qui effectue une translation à vitesse constante
 par rapport à R est lui-même un référentiel Galiléen.
 
-:::{note} Un référentiel $R'$ est en translation par rapport à un référentiel
-$R$ si tous les points de $R'$ se déplacent à la même vitesse dans $R$.
+:::{note}
+Un référentiel $R'$ est en translation par rapport à un référentiel $R$
+si tous les points de $R'$ se déplacent à la même vitesse dans $R$.
 
-Dans une translation d'un référentiel $R'$ par rapport à $R$, uniquement le
-point origine du repère associé à $R'$ est animé d'un mouvement entre les
-instants $t$ et t+dt. Les vecteurs de la base associée à $R'$ sont fixes (ils
-n'ont pas de mouvement).
+Dans une translation d'un référentiel $R'$ par rapport à $R$, uniquement le point
+origine du repère associé à $R'$ est animé d'un mouvement entre les instants $t$ et
+t+dt. Les vecteurs de la base associée à $R'$ sont fixes (ils n'ont pas de
+mouvement).
 
 Il existe différents types de translations :
 
