@@ -27,7 +27,7 @@ abstract: |
 
 La dynamique est la branche de la mécanique du point matériel qui permet
 d'étudier les changements provoqués par les forces sur les mouvements du
-point matériel en référentiel galiléen. On va donc relier les forces à la
+point matériel en référentiel galiléen. Nous allons donc relier les forces à la
 vitesse et à l'accélération du point matériel. Pour cela, il faut utiliser
 l'ensemble des lois de Newton que nous avons vues depuis le premier chapitre
 (lois fondamentales), ainsi que la notion de {term}`référentiel` et de
@@ -36,13 +36,18 @@ utilisée est la seconde loi de Newton, qui relie les forces à l'accélération
 c'est la loi centrale pour l'étude dynamique des mouvements d'un point
 matériel en référentiel galiléen.
 
-:::{note} Rappel
+::::{note} Rappel
 Dans ce chapitre, on utilisera surtout le principe fondamental de la dynamique
 (PFD) :
-$\overrightarrow{F} = m\overrightarrow{a}(M)_{/R}$.
-Pour l'énoncé complet des lois de Newton, voir le chapitre 
-« [Principes fondamentaux](#lois-newton) ».
+
+:::{math}
+:enumerated: false
+\overrightarrow{F} = m\overrightarrow{a}(M)_{/R}
 :::
+
+Pour l'énoncé complet des lois de Newton, voir le chapitre
+« [Principes fondamentaux](#lois-newton) ».
+::::
 
 Comme nous l'avons déjà vu, la première loi (que l'on doit à Galilée) découle
 de fait de la seconde loi. En effet, si la vitesse est constante, la somme des
@@ -87,7 +92,7 @@ Pour résoudre un problème de dynamique du point matériel, il y a différentes
 9. **Résoudre le système d'équations** : on résout le système d'équations
    obtenues afin de remonter jusqu'à l'équation du mouvement. Cela se résout
    donc exactement comme un problème de cinématique pur : de l'accélération
-   on intègre afin d'obtenir la vitesse, puis de nouveau après intégration la
+   on intègre afin d'obtenir la vitesse, puis, après une nouvelle intégration, la
    position.
 :::
 
@@ -97,7 +102,7 @@ problème ou les questions posées.
 Nous allons regarder, sous forme d'exemples résolus et d'applications, les
 principaux problèmes que l'on rencontre en dynamique du point matériel.
 
-## Mouvement rectiligne (sur le sol plat)
+## Mouvement rectiligne (sur sol plat)
 
 C'est le mouvement le plus simple. Néanmoins, il faudra distinguer différents
 cas : avec ou sans frottements, avec ou sans force motrice. Commençons par la
@@ -259,7 +264,7 @@ C'est un mouvement rectiligne uniforme.
 ::::
 :::::
 
-## Mouvement rectiligne (sur le sol incliné)
+## Mouvement rectiligne (sur sol incliné)
 
 C'est le même mouvement que précédemment, mais cette fois-ci le sol fait un
 angle avec l'horizontale. On peut distinguer deux cas : avec ou sans
@@ -550,7 +555,7 @@ La solution particulière de $\dfrac{dv}{dt} + \dfrac{\alpha}{m}v = -g$ est
 $v_p = -mg/\alpha$. La solution générale est $v_G = Ke^{-\alpha t/m}$.
 
 D'après les conditions initiales, on sait que $v(0) = 0$. Alors on a
-$v(0) = 0 = -\dfrac{mg}{\alpha} + K$. Ce qui donne la vitesse finale :
+$v(0) = 0 = -\dfrac{mg}{\alpha} + K$. Ce qui donne l'expression de la vitesse :
 
 $$
 v(t) = -\frac{mg}{\alpha} + \frac{mg}{\alpha}e^{-\alpha t/m}
@@ -784,6 +789,6 @@ chapitres précédents du cours. Ils interviennent juste tous ensemble en
 dynamique. Bien entendu, il faut alors bien maîtriser tous les outils
 précédemment abordés depuis le début du cours.
 
-La seule nouveauté est l'équation différentielle du premier degré. Il faut
+La seule nouveauté est l'équation différentielle du premier ordre. Il faut
 bien apprendre à la résoudre afin de déterminer les équations horaires du
 mouvement dans les cas où elle intervient.
