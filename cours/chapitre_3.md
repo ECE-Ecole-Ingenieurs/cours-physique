@@ -11,9 +11,8 @@ abstract: |
   Avant de nous lancer dans la dynamique du point matériel, nous allons
   regarder ce qu'il se passe lorsque le point matériel est immobile. La
   statique du point consiste à reconnaître les forces qui s'appliquent sur un
-  point matériel à l'équilibre — à en faire le bilan — et à en déduire des
-  propriétés (forces inconnues, coefficient de frottement…) en appliquant
-  deux lois.
+  point matériel à l'équilibre et à en déduire des propriétés (forces inconnues,
+  coefficient de frottement…) en appliquant deux lois.
 
   Nous détaillons une méthodologie en six étapes, applicable à tout problème
   d'équilibre, puis nous l'illustrons sur un exemple complet.
