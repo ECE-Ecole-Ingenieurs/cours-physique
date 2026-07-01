@@ -1,5 +1,5 @@
 ---
-title: De la statique du point matériel
+title: Statique du point matériel
 authors:
   - coralie-thieulin
 keywords:
