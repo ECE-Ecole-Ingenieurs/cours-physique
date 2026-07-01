@@ -1052,5 +1052,5 @@ $$
 :::{seealso} À vous de jouer
 Appliquez les concepts de ce chapitre dans les notebooks associés :
 
-- [TP 01 — Coordonnées cylindriques et cartésiennes](../notebooks/tp01_coordonnees_cylindriques_cartesiennes_simple.ipynb)
+- [TP 01 — Coordonnées cylindriques et cartésiennes](../notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb)
 :::
