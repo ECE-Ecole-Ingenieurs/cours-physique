@@ -217,8 +217,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# MyST build outputs
-_build
+# Jupyter Notebook
+.ipynb_checkpoints/
 
-# MacOS 
-.DS_store
+# MyST / Jupyter Book
+_build/
+docs/_build/
+site/
+
+# MacOS
+.DS_Store
