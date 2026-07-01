@@ -1,0 +1,20 @@
+version: 1
+project:
+  contributors:
+    - id: coralie-thieulin
+      name: Coralie Thieulin
+      affiliations:
+        - id: ece-physique
+    - id: samira-dedecker
+      name: Samira Dedecker
+      affiliations:
+        - id: ece-physique
+    - id: eduardo-guzman
+      name: Eduardo Guzman
+      affiliations:
+        - id: innovamics-info
+  affiliations:
+    - id: ece-physique
+      name: Enseignante physique, ECE
+    - id: innovamics-info
+      name: Intervenant Informatique, Innovamics

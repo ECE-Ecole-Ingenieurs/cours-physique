@@ -1,3 +1,13 @@
+---
+authors:
+  - coralie-thieulin
+  - samira-dedecker
+  - eduardo-guzman
+keywords:
+  - physique
+  - python
+---
+
 # Cours de phyisque
 
 Cours et travaux pratiques du cours de physique ING 1. 

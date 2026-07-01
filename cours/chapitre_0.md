@@ -1,8 +1,13 @@
 ---
 title: Principes fondamentaux
 authors:
-  - name: Coralie Thieulin
-    affiliation: Enseignante physique, ECE
+  - coralie-thieulin
+keywords:
+  - mécanique newtonienne
+  - principes fondamentaux
+  - référentiel galiléen
+  - lois de Newton
+  - quantité de mouvement
 abstract: |
   Dans ce chapitre, nous allons poser les relations fondamentales sur lesquelles
   se construira la mécanique.

@@ -2,10 +2,7 @@
 title: Glossaire
 ---
 
-## Glossaire
-
-Un rappel synthétique des notions clés introduites dans ce cours. Chaque terme
-renvoie à sa définition détaillée dans le chapitre correspondant.
+Un rappel synthétique des notions clés introduites dans ce cours.
 
 :::{glossary}
 référentiel
@@ -35,4 +32,18 @@ quantité de mouvement
 référentiel galiléen (ou inertiel)
 : Référentiel non accéléré dans lequel la première loi de Newton est vérifiée.
   Voir la [section correspondante](#referentiel-galileen).
+
+trajectoire
+: Courbe représentant l'ensemble des positions $M(t)$ d'un point matériel
+  pendant l'intervalle de temps considéré. Voir la
+  [définition complète](#def-trajectoire).
+
+vitesse instantanée
+: Dérivée temporelle du vecteur position,
+  $\overrightarrow{v}(M/R) = \left( d\overrightarrow{OM}/dt \right)_{/R}$. Voir
+  la [définition complète](#def-vitesse-instantanee).
+
+accélération
+: Dérivée temporelle du vecteur vitesse (ou dérivée seconde du vecteur
+  position). Voir la [définition complète](#def-acceleration).
 :::

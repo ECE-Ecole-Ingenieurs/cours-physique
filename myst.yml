@@ -1,20 +1,11 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - ./authors.yml
 project:
   id: dc304616-fd17-43e8-9e66-338461647557
-  title: Physique ING 1 
+  title: Physique ING 1
   description: Cours de Physique numérique
-  keywords:
-    - physique
-    - python
-  authors:
-    - name: Coralie Thieulin 
-      affiliation: Enseignante physique, ECE
-    - name: Samira Dedecker
-      affiliations: Enseignante physique, ECE
-    - name: Eduardo Guzman 
-      affiliations: Intervenant Informatique, Innovamics
-  # authors: []
   github: https://github.com/ECE-Ecole-Ingenieurs/cours-physique
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
