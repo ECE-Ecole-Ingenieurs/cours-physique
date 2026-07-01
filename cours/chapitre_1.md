@@ -81,13 +81,20 @@ point. L'observateur est le pilier de l'étude de ce mouvement car, en fonction
 de sa position par rapport à l'objet en mouvement, ses conclusions quant à la
 nature du mouvement changeront.
 
-:::{prf:example} La bille dans le train
+::::{prf:example} La bille dans le train
 :label: ex-bille-train
-Dans un train qui se déplace à vitesse constante, un passager qui lâche
-verticalement une bille conclut que la bille a un mouvement **rectiligne**. La
-personne qui est sur le quai et qui observe la même action conclut que le
-mouvement n'est **pas rectiligne**. Pourtant, il s'agit bien de la même bille !
+Dans un train qui se déplace à vitesse constante, un passager lâche
+verticalement une bille.
+
+**Question** : le mouvement de la bille est-il le même pour ce passager que
+pour une personne immobile sur le quai qui observe la scène ?
+
+:::{dropdown} Corrigé
+Pour le passager la bille a un mouvement **rectiligne**. La personne
+qui est sur le quai et qui observe la même action conclut que le mouvement
+n'est **pas rectiligne**. Pourtant, il s'agit bien de la même bille !
 :::
+::::
 
 Un mouvement est donc toujours lié à un observateur : il est dit **relatif**.
 
@@ -287,7 +294,7 @@ z(t) = h(t)
 \end{cases}
 $$
 
-:::{prf:example} Déterminer une trajectoire à partir d'équations horaires
+::::{prf:example} Déterminer une trajectoire à partir d'équations horaires
 :label: ex-trajectoire-cercle
 Soit un point matériel $M$ en mouvement dans le référentiel
 $R(O ; \overrightarrow{u_x}, \overrightarrow{u_y})$ selon les équations horaires
@@ -300,8 +307,10 @@ y(t) = 4\sin\theta(t)
 \end{cases}
 $$
 
-**Déterminez la trajectoire du point $M$ ainsi que son mouvement.**
+**Question** : Déterminez la trajectoire du point $M$ ainsi que son
+mouvement.
 
+:::{dropdown} Corrigé
 On remarque que :
 
 $$
@@ -315,12 +324,13 @@ $O$ de coordonnées $(0,0)$ et de rayon $4$.
 D'après ses équations horaires, le point $M$ décrit donc un cercle de centre $O$
 et son mouvement est **circulaire**.
 :::
+::::
 
 ## Notion de vitesse d'un point matériel
 
 Il existe plusieurs vitesses.
 
-:::{prf:example} Vitesse moyenne ou vitesse instantanée ?
+::::{prf:example} Vitesse moyenne ou vitesse instantanée ?
 :label: ex-vitesse-moy-instantanee
 Vous prenez votre voiture et parcourez $6\ \text{km}$ en $10\ \text{min}$. Vous
 aurez alors parcouru ces $6\ \text{km}$ à la **vitesse moyenne** de :
@@ -329,14 +339,18 @@ $$
 v_{\text{moy}} = \frac{6}{10} = 0{,}6\ \text{km/min} = 36\ \text{km/h}
 $$
 
-Par contre, si au bout des $10\ \text{min}$ un policier vous arrête en vous
-disant que vous rouliez à $90\ \text{km/h}$, vous ne pouvez pas lui répondre que
-_c'est impossible car vous n'avez fait que 6 km en 10 minutes_.
+Au bout des $10\ \text{min}$, un policier vous arrête en vous
+disant que vous rouliez à $90\ \text{km/h}$.
 
-Il y a donc **deux vitesses différentes** : la vitesse indiquée par le policier
-n'est pas une vitesse moyenne, mais une vitesse sur l'instant — une **vitesse
-instantanée**.
+**Question** : Pouvez-vous lui répondre que _c'est impossible car vous n'avez
+fait que 6 km en 10 minutes_ ?
+
+:::{dropdown} Corrigé
+Non : il y a **deux vitesses différentes**. La vitesse indiquée par le
+policier n'est pas une vitesse moyenne, mais une vitesse sur l'instant — une
+**vitesse instantanée**.
 :::
+::::
 
 ### Vitesse moyenne
 

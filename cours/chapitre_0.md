@@ -249,7 +249,7 @@ $$
 $$
 :::
 
-:::{prf:example} LE SYSTEME ISOLE
+::::{prf:example} Système isolé
 :label: systeme-isole
 
 Considérons deux points matériels (notés 1 et 2) isolés de l'extérieur. Cela
@@ -257,6 +257,9 @@ veut dire qu'aucune force extérieure ne s'applique et ne peut s'appliquer sur l
 système. Les deux points réunis définissent un système fermé, et seules les
 forces d'interactions entre les deux points sont mises en jeu dans le système.
 
+**Question** : que peut-on dire de la quantité de mouvement totale du système ?
+
+:::{dropdown} Corrigé
 D'après le [principe d'action-réaction](#principe-action-reaction), nous avons alors :
 
 ${\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1}$.
@@ -290,6 +293,7 @@ Comme ${\overrightarrow{F}}_{1/2} + {\overrightarrow{F}}_{2/1} =
 quantité de mouvement. Elle est conservée au cours du temps :
 $\overrightarrow{p} = \overrightarrow{cste}$.
 :::
+::::
 
 Il est assez facile de généraliser ce problème à un système fermé de N points
 matériels. Ainsi en suivant le même raisonnement et en sommant les interactions
@@ -517,13 +521,18 @@ Il existe différents types de translations :
 :align: center
 :width: 70%
 
-Passager 1 se déplaçant dans un train en translation rectiligne uniforme par
-rapport au référentiel terrestre.
+Passager 1 se déplaçant dans un train, lui-même en mouvement par rapport au
+référentiel terrestre.
 :::
 
 Un passager (noté 1) se déplace à la vitesse $\overrightarrow{v}'$ dans un train
 se déplaçant à la vitesse constante $\overrightarrow{v}$ par rapport au sol.
 
+**Question** : quel est le type de mouvement du train par rapport au sol ?
+En déduire si le référentiel du train est galiléen (ou pseudo-galiléen).
+Justifier.
+
+:::{dropdown} Corrigé
 Le train est donc en **translation rectiligne uniforme** par rapport au sol : il
 est donc en translation rectiligne uniforme dans le référentiel terrestre
 $R(0,\overrightarrow{U_{x}},\overrightarrow{U_{y}})$ considéré comme
@@ -532,6 +541,7 @@ pseudo-Galiléen.
 On peut définir le train comme le référentiel $R'\left(
 0',\overrightarrow{U_{x'}},\overrightarrow{U_{y'}} \right)$ qui est galiléen.
 C'est effectivement un ensemble de points fixes pour le passager 1 qui se déplace.
+:::
 ::::
 
 ## Bilan du chapitre
