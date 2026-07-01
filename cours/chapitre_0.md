@@ -19,8 +19,8 @@ par se poser la question suivante : _qu'est-ce que la mécanique du point
 matériel_ ?
 
 La mécanique du point est la base de la **mécanique classique**, aussi appelée
-**mécanique Newtonienne** car on la doit au physicien **_Isaac Newton_**. C'est
-la théorie Physique qui traite du mouvement d'objets qui se déplacent à des
+**mécanique newtonienne** car on la doit au physicien **_Isaac Newton_**. C'est
+la théorie physique qui traite du mouvement d'objets qui se déplacent à des
 vitesses faibles par rapport à la vitesse de la lumière ($c = 3{,}0 \times 10^{8}\ \mathrm{m \cdot s^{-1}}$). Dans le cas de vitesses importantes par rapport à la vitesse de la
 lumière, on doit utiliser la **mécanique relativiste**. De plus, la taille des
 objets considérés doit être petite par rapport à l'échelle du problème envisagé
@@ -35,8 +35,8 @@ constituants la matière. En effet, il a été montré il y a un siècle que les
 notions de mécanique classique doivent être remplacées par celles de mécanique
 quantique dans ce cas.
 
-La mécanique du point n'est pas la seule composante de la mécanique Newtonienne.
-La mécanique du solide indéformable fait elle aussi partie intégrante de la
+La mécanique du point n'est pas la seule composante de la mécanique newtonienne.
+La mécanique du solide indéformable fait, elle aussi, partie intégrante de la
 mécanique classique. Elle a été développée à partir de la mécanique du point
 pour tenir compte des mouvements internes des objets solides en plus de leur
 mouvement d'ensemble, les mouvements internes étant les mouvements de rotation.
@@ -51,7 +51,7 @@ pas absolu mais s'écoule de manière différente suivant la vitesse des mouveme
 et la durée du mouvement étudiés. Dans le cadre de la mécanique classique, comme
 les vitesses des corps observés sont faibles devant la vitesse de la lumière et
 que la durée d'observation des mouvements est courte, nous pourrons toujours
-considérer le temps comme absolu, c'est à dire s'écoulant de la même manière en
+considérer le temps comme absolu, c'est-à-dire s'écoulant de la même manière en
 tous points de l'espace.
 
 :::{note}
@@ -76,22 +76,22 @@ grande devant les dimensions atomiques :
 
 ## La révolution Newtonienne
 
-Si l'histoire de la mécanique débute réellement avec Galilée au XVIIème siècle,
+Si l'histoire de la mécanique débute réellement avec Galilée au XVIIe siècle,
 cette science prend ses racines dans des savoirs datant de l'Antiquité notamment
 avec Aristote et Archimède.
 
 En effet, aux origines, la mécanique (qui ne porte pas encore ce nom) regroupe
 un ensemble de réflexions d'ordre philosophique ou religieux dont l'objectif est
-l'étude du mouvement des astres. A cette époque, le ciel et les astres sont
+l'étude du mouvement des astres. À cette époque, le ciel et les astres sont
 considérés comme une grosse machine.
 
-C'est Aristote (384-322 av. JC) qui pose les bases de la mécanique. Pour lui,
+C'est Aristote (384-322 av. J.-C.) qui pose les bases de la mécanique. Pour lui,
 tous les corps de l'Univers tirent leur mouvement d'un moteur, les mouvements
-sont ensuite transmis par contact. A cela s'ajoute l'idée que ces corps se
+sont ensuite transmis par contact. À cela s'ajoute l'idée que ces corps se
 meuvent pour atteindre le lieu propre qui leur est destiné, où ils trouvent
 l'immobilité.
 
-Les contributions d'Archimède (287-212 av. JC) sont également fondamentales. En
+Les contributions d'Archimède (287-212 av. J.-C.) sont également fondamentales. En
 particulier, ses réflexions sur l'étude de l'équilibre des corps seront reprises
 ensuite par Galilée.
 
@@ -107,9 +107,9 @@ Finalement, la théorie de la mécanique du point matériel, telle qu'on la conn
 aujourd'hui, est développée par Sir Isaac Newton en 1686 dans l'ouvrage
 _Philosophiae naturalis principia mathematica_, ouvrage scientifique en trois
 tomes. Dans le premier tome, Newton expose les 3 lois du mouvement universel
-(qui à l'origine de sa réflexion étaient au nombre de 5). Il y clarifie des
+(qui, à l'origine de sa réflexion, étaient au nombre de 5). Il y clarifie des
 notions fondamentales qui n'étaient pas claires auparavant sur les forces et il
-définit en termes scientifiques la notion de _masse_, c'est à dire la quantité
+définit en termes scientifiques la notion de _masse_, c'est-à-dire la quantité
 de matière que possède un corps indépendamment de son volume. La masse d'un
 corps réel peut varier au cours du temps pour de nombreuses raisons. La
 mécanique de Newton ne considère pas ce cas. Le modèle choisi implique que la
@@ -119,8 +119,8 @@ $$
 m = cte
 $$
 
-C'est la première restriction importante dans la théorie de mécanique
-Newtonienne.
+C'est la première restriction importante dans la théorie de la mécanique
+newtonienne.
 
 Citons les trois lois du mouvement telles que Newton les a exprimées en 1686
 (bien que traduites du latin) :
@@ -134,7 +134,7 @@ lui est imprimée ; et cette altération se fait en ligne droite dans la directi
 de la force.
 
 **Troisième loi** : Pour chaque action, il existe une réaction égale et opposée.
-L'action est toujours égale à la réaction ; c'est à dire que les actions de deux
+L'action est toujours égale à la réaction ; c'est-à-dire que les actions de deux
 corps l'un sur l'autre sont toujours égales, et dans des directions contraires.
 
 La théorie décrite par Newton s'inspire des nombreux scientifiques qui l'ont
@@ -143,7 +143,7 @@ géants ». Néanmoins, l'approche de Newton est radicalement différente : ce
 sont d'une nature différente des lois précédentes. Elles sont des hypothèses sur
 la réalité physique des relations entre matière (masse), forces et mouvements.
 
-Ces lois du mouvement ont dicté la Physique jusqu'au début du vingtième siècle
+Ces lois du mouvement ont dicté la physique jusqu'au début du vingtième siècle
 et l'émergence de la théorie de la relativité et de la théorie de la mécanique
 quantique. Toutefois, ces lois restent entièrement fondamentales et utiles à
 l'échelle humaine pour comprendre les mouvements, étudier et concevoir des
@@ -166,17 +166,17 @@ particulière dont la somme donne la masse totale du corps.
 Dans notre espace à trois dimensions, un point peut être défini grâce à
 uniquement trois coordonnées d'espace (correspondant aux trois directions de
 l'espace). **Considérer un corps quelconque comme un point matériel comme dans
-la théorie de la mécanique Newtonienne correspond à faire abstraction de sa
-forme et allouer la masse totale du corps en un seul point de l'espace**.
-Généralement ce point correspond au centre de masse (barycentre) du corps réel,
-mais ce n'est pas une obligation. La motivation vient qu'en mécanique du point,
+la théorie de la mécanique newtonienne correspond à faire abstraction de sa
+forme et à attribuer la masse totale du corps à un seul point de l'espace**.
+Généralement, ce point correspond au centre de masse (barycentre) du corps réel,
+mais ce n'est pas une obligation. La motivation vient du fait qu'en mécanique du point,
 seuls les mouvements d'ensemble peuvent être caractérisés : l'étude de la
-direction et du sens d'un seul point suffit (mais celui-ci doit avoir la masse
-totale du corps réel).
+direction et du sens du mouvement d'un seul point suffit (mais celui-ci doit avoir
+la masse totale du corps réel).
 
 ### Le principe fondamental de la dynamique
 
-Le principe fondamental de la dynamique est basé sur la grandeur quantité de
+Le principe fondamental de la dynamique est basé sur la grandeur appelée quantité de
 mouvement. C'est une grandeur essentielle dans l'approche des mouvements dont la
 définition et la compréhension permettent de clarifier bien des choses.
 
@@ -215,7 +215,7 @@ en sens à la force produite par le second corps sur le premier.
 
 Ce principe fondamental est directement la troisième loi de Newton telle
 qu'énoncée en 1686. Ce principe (et donc cette loi de Newton) concerne
-uniquement les forces et n'est pas reliée à d'autres grandeurs contrairement aux
+uniquement les forces et n'est pas relié à d'autres grandeurs, contrairement aux
 deux autres lois.
 
 Soit deux points interagissant l'un sur l'autre, on a :
@@ -269,12 +269,12 @@ Comme ${\overrightarrow{F}}_{1/2} + {\overrightarrow{F}}_{2/1} =
 \overrightarrow{0}$, on obtient alors que $\frac{d\overrightarrow{p}}{dt} =
 \overrightarrow{0}.$
 
-**Conclusion**: dans un système isolé de deux points, il n'y a pas de variation de
+**Conclusion** : dans un système isolé de deux points, il n'y a pas de variation de
 quantité de mouvement. Elle est conservée au cours du temps :
 $\overrightarrow{p} = \overrightarrow{cste}$.
 :::
 
-Il est assez facile généraliser ce problème à un système fermé de N points
+Il est assez facile de généraliser ce problème à un système fermé de N points
 matériels. Ainsi en suivant le même raisonnement et en sommant les interactions
 deux à deux dans le système, on obtient le théorème de la conservation de la
 quantité de mouvement :
@@ -350,11 +350,11 @@ Cette loi est aussi appelée **principe d'action-réaction**.
 :::{note}
 
 Nous avons vu que la première loi se déduit immédiatement de la seconde loi de
-Newton. Elle peut apparaitre superflue. Néanmoins, elle est gardée séparée de la
+Newton. Elle peut apparaître superflue. Néanmoins, elle est gardée séparée de la
 seconde pour des raisons historiques : Newton les avait différenciées car la
 première loi peut être attribuée à Galilée.
 
-Même si cette loi apparait évidente et simple de nos jours, elle est loin dans
+Même si cette loi apparaît évidente et simple de nos jours, elle est loin dans
 les faits d'être triviale. Pendant longtemps, on pensait que s'il n'y avait pas
 de force appliquée sur un corps en mouvement celui-ci s'arrêtait dans tous les
 cas. C'est une idée fausse et une observation fausse que nous faisons dans la
@@ -365,7 +365,7 @@ difficile sur Terre d'observer des systèmes réellement isolés de l'environnem
 extérieur.
 
 La seconde loi de Newton (anciennement loi fondamentale de la dynamique
-générale) est dans la Physique actuelle une forme restrictive du principe
+générale) est, dans la physique actuelle, une forme restrictive du principe
 fondamental de la dynamique puisqu'elle n'est valable que pour des masses
 constantes au cours du temps. Néanmoins, dans le cadre d'un cours de mécanique
 classique, utiliser le principe fondamental de la dynamique ou la seconde loi de
@@ -383,7 +383,7 @@ Un **référentiel** (=point de vue d'un observateur) est la référence que l'o
 utilise pour décrire un mouvement. Cette référence est constituée de l'ensemble
 des points qui sont immobiles pour l'observateur.
 
-Cela peut être la salle de cours, une voiture, un train, un avion, la lune...
+Cela peut être la salle de cours, une voiture, un train, un avion, la Lune...
 
 Notation : $R$
 :::
@@ -401,7 +401,7 @@ référentiel, il y a une infinité de repères différents.
 Notation : $R(0,\overrightarrow{u},\overrightarrow{v},\overrightarrow{w})$
 
 Remarque : Dans l'absolu, il faudrait ajouter une base de temps au référentiel.
-Mais, comme en mécanique Newtonienne on considère le temps comme absolu, il
+Mais, comme en mécanique newtonienne on considère le temps comme absolu, il
 n'est pas nécessaire de l'indiquer.
 :::
 
@@ -414,7 +414,7 @@ orthonormés fixes dans le référentiel. Toutefois de nombreux problèmes sont 
 problème autre que celui associé au référentiel (coordonnées cylindriques,
 sphériques...).
 
-Dans tous les cas, il faudra définir trois vecteurs unitaires constituants la
+Dans tous les cas, il faudra définir trois vecteurs unitaires constituant la
 base de résolution du problème.
 
 :::{attention}
@@ -444,7 +444,7 @@ vu que ce n'est pas évident à réaliser sur Terre, principalement à cause des
 frottements mais aussi des forces à distance qui s'appliquent inévitablement
 comme la force d'attraction de la gravitation !
 
-Donc restons pragmatique : un référentiel inertiel ou Galiléen est un
+Donc restons pragmatiques : un référentiel inertiel ou galiléen est un
 référentiel où tout se passe bien. Si vous posez un objet à l'équilibre, il ne
 doit rien lui arriver (il ne bouge pas).
 
@@ -457,18 +457,18 @@ référentiel terrestre considéré comme Galiléen ou pseudo-Galiléen.
 
 Si le problème met en jeu des mouvements ou des temps à plus grande échelle,
 alors le référentiel inertiel de référence (référentiel absolu) doit avoir pour
-origine le centre de la terre et des axes liés aux étoiles.
+origine le centre de la Terre et des axes liés aux étoiles.
 
 Si l'on regarde le mouvement des planètes du système solaire, l'origine du
 référentiel inertiel de référence est le centre de masse du système solaire
-(quasiment le centre du soleil à quelques centimètres près !) et des axes liés
+(quasiment le centre du Soleil à quelques centimètres près !) et des axes liés
 aux étoiles : ce référentiel a été défini par Nicolas Copernic dès 1517. Il est
 généralement appelé le référentiel de Copernic. Le référentiel héliocentrique a
 lui pour origine le centre du Soleil.
 
 ### Ensemble des référentiels Galiléens
 
-Si l'on connait un seul référentiel Galiléen R (le référentiel de Copernic par
+Si l'on connaît un seul référentiel galiléen R (le référentiel de Copernic par
 exemple ou le référentiel terrestre), on peut en définir une infinité.
 
 En effet, tout référentiel R' qui effectue une translation à vitesse constante
@@ -513,7 +513,7 @@ pseudo-Galiléen.
 
 On peut définir le train comme le référentiel $R'\left(
 0',\overrightarrow{U_{x'}},\overrightarrow{U_{y'}} \right)$ qui est galiléen.
-C'est effectivement un ensemble de point fixe pour le passager 1 qui se déplace.
+C'est effectivement un ensemble de points fixes pour le passager 1 qui se déplace.
 ::::
 
 ## Bilan du chapitre
@@ -525,4 +525,4 @@ Dans le cadre spécifique de la mécanique du point matériel, où la **masse es
 constante**, ces deux principes peuvent être déclinés par les trois lois de
 Newton qui seront les lois fondamentales utilisées dans toute la suite.
 
-Ces lois sont valables pour des référentiels dit Galiléens ou Inertiels.
+Ces lois sont valables pour des référentiels dits galiléens ou inertiels.
