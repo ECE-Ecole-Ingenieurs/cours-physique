@@ -138,8 +138,15 @@ L'action est toujours égale à la réaction ; c'est-à-dire que les actions de 
 corps l'un sur l'autre sont toujours égales, et dans des directions contraires.
 
 La théorie décrite par Newton s'inspire des nombreux scientifiques qui l'ont
-précédé ! Comme dit par Newton lui-même, il est « assis sur des épaules de
-géants ». Néanmoins, l'approche de Newton est radicalement différente : ces lois
+précédé ! Comme il le résume lui-même dans une lettre restée célèbre :
+
+```{epigraph}
+Si j'ai vu plus loin, c'est en me plaçant sur les épaules des géants.
+
+-- Isaac Newton, lettre à Robert Hooke, 1676
+```
+
+Néanmoins, l'approche de Newton est radicalement différente : ces lois
 sont d'une nature différente des lois précédentes. Elles sont des hypothèses sur
 la réalité physique des relations entre matière (masse), forces et mouvements.
 
@@ -180,6 +187,7 @@ Le principe fondamental de la dynamique est basé sur la grandeur appelée quant
 mouvement. C'est une grandeur essentielle dans l'approche des mouvements dont la
 définition et la compréhension permettent de clarifier bien des choses.
 
+(qte-mouvement)=
 La quantité de mouvement est le produit de la masse (scalaire) et de la vitesse
 (qui est vectorielle). **La quantité de mouvement est donc un vecteur**. Elle
 est usuellement notée : $\overrightarrow{p}$.
@@ -196,7 +204,7 @@ vitesse d'un corps mais aussi avec la masse. La définition que nous venons de
 donner ci-dessus de la quantité de mouvement permet d'énoncer le principe
 fondamental de la dynamique :
 
-````{prf:theorem} Principe fondamental de la dynamique
+````{prf:axiom} Principe fondamental de la dynamique
 :label: principe-fondamental-dynamique
 
 Dans un référentiel galiléen, la résultante des forces extérieures appliquées
@@ -218,19 +226,23 @@ qu'énoncée en 1686. Ce principe (et donc cette loi de Newton) concerne
 uniquement les forces et n'est pas relié à d'autres grandeurs, contrairement aux
 deux autres lois.
 
-Soit deux points interagissant l'un sur l'autre, on a :
+:::{prf:axiom} Principe d'action-réaction
+:label: principe-action-reaction
+
+Soit deux points matériels interagissant l'un sur l'autre, on a :
 
 $$
 {\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1}
 $$
 
-ou
+ou, en termes de normes :
 
 $$
 \left\|
 {\overrightarrow{F}}_{1/2} \right\| = \left\| {\overrightarrow{F}}_{2/1}
 \right\|
 $$
+:::
 
 :::{prf:example} LE SYSTEME ISOLE
 :label: systeme-isole
@@ -240,14 +252,14 @@ veut dire qu'aucune force extérieure ne s'applique et ne peut s'appliquer sur l
 système. Les deux points réunis définissent un système fermé, et seules les
 forces d'interactions entre les deux points sont mises en jeu dans le système.
 
-D'après le principe d'action-réaction, nous avons alors :
+D'après le [principe d'action-réaction](#principe-action-reaction), nous avons alors :
 
 ${\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1}$.
 
 C'est-à-dire que ${\overrightarrow{F}}_{1/2} + {\overrightarrow{F}}_{2/1} =
 \overrightarrow{0}$
 
-D'après le principe fondamental de la dynamique, nous pouvons écrire pour chacun
+D'après le [principe fondamental de la dynamique](#principe-fondamental-dynamique), nous pouvons écrire pour chacun
 des points :
 
 ${\overrightarrow{F}}_{1/2} = \frac{d\overrightarrow{p_{2}}}{dt}$ et
@@ -290,11 +302,13 @@ Les deux principes fondamentaux que nous venons d'expliciter peuvent être
 réécrits dans le cadre de la mécanique du point en considérant la masse $m$
 **constante**
 
-D'après le principe fondamental de la dynamique et la définition de la quantité
+D'après le [principe fondamental de la dynamique](#principe-fondamental-dynamique) et la définition de la quantité
 de mouvement, puisque la masse est constante et est scalaire, il vient de suite
 que :
 
-```{prf:theorem}
+```{prf:corollary} Deuxième loi de Newton
+:label: corollaire-deuxieme-loi
+
 **Une force est égale au produit de la masse et de la dérivée par rapport au
 temps de la vitesse du point matériel.**
 ```
@@ -315,37 +329,31 @@ de Newton.
 Ceci nous permet d'énoncer les lois de Newton dans un formalisme mathématique
 moderne.
 
-**Première loi** :
+:::{prf:axiom} Synthèse — Les trois lois de Newton
+:label: lois-newton
+
+**Première loi** (principe d'inertie) :
 
 $$
 \overrightarrow{F} = \overrightarrow{0} \Leftrightarrow
 \overrightarrow{\ v} = \overrightarrow{cste}
 $$
 
-Cette loi est aussi appelée **principe d'inertie**.
-
-**Deuxième loi** :
+**Deuxième loi** (principe fondamental de la dynamique, PFD) :
 
 $$
 \overrightarrow{F} = m\frac{d\overrightarrow{\ v}}{dt}
 $$
 
-Cette loi est aussi appelée **principe fondamental de la dynamique (PFD)**
-
-**Troisième loi** :
+**Troisième loi** (principe d'action-réaction) :
 
 $$
 {\overrightarrow{F}}_{1/2} = - {\overrightarrow{F}}_{2/1}
-$$
-
-et
-
-$$
+\qquad \text{et} \qquad
 \left\| {\overrightarrow{F}}_{1/2} \right\| = \left\|
 {\overrightarrow{F}}_{2/1} \right\|
 $$
-
-Cette loi est aussi appelée **principe d'action-réaction**.
+:::
 
 :::{note}
 
@@ -379,6 +387,8 @@ Newton est parfaitement équivalent.
 Avant tout, il est essentiel de préciser la signification de ces notions.
 
 :::{prf:definition} Référentiel
+:label: def-referentiel
+
 Un **référentiel** (=point de vue d'un observateur) est la référence que l'on
 utilise pour décrire un mouvement. Cette référence est constituée de l'ensemble
 des points qui sont immobiles pour l'observateur.
@@ -389,6 +399,7 @@ Notation : $R$
 :::
 
 :::{prf:definition} Repère
+:label: def-repere
 
 Pour repérer le mouvement d'un corps dans un référentiel (=point de vue d'un
 observateur immobile), il faut associer au référentiel un repère d'espace dont
@@ -406,6 +417,7 @@ n'est pas nécessaire de l'indiquer.
 :::
 
 ::::{prf:definition} Systèmes de coordonnées
+:label: def-coordonnees
 
 Afin de déterminer les composantes du mouvement du corps dans le référentiel et
 de quantifier ce mouvement, le plus simple consiste à prendre un système d'axes
@@ -424,6 +436,7 @@ directions vont suivre le mouvement.
 :::
 ::::
 
+(referentiel-galileen)=
 ### Référentiel Inertiel (ou Galiléen)
 
 C'est le référentiel utilisé en mécanique du point (en mécanique classique). En
@@ -518,11 +531,11 @@ C'est effectivement un ensemble de points fixes pour le passager 1 qui se dépla
 
 ## Bilan du chapitre
 
-Au cours de ce chapitre, nous avons vu qu'il existe deux principes fondamentaux
+Au cours de ce chapitre, nous avons vu qu'il existe deux [principes fondamentaux](#principe-fondamental-dynamique)
 qui permettent de résoudre tous les problèmes de la mécanique classique.
 
-Dans le cadre spécifique de la mécanique du point matériel, où la **masse est
-constante**, ces deux principes peuvent être déclinés par les trois lois de
-Newton qui seront les lois fondamentales utilisées dans toute la suite.
+Dans le cadre spécifique de la mécanique du {term}`point matériel`, où la **masse est
+constante**, ces deux principes peuvent être déclinés par les [trois lois de
+Newton](#lois-newton) qui seront les lois fondamentales utilisées dans toute la suite.
 
 Ces lois sont valables pour des référentiels dits galiléens ou inertiels.
