@@ -9,18 +9,15 @@ project:
   github: https://github.com/ECE-Ecole-Ingenieurs/cours-physique
   toc:
     - file: README.md
-    - title: Cours
-      children:
-        - file: cours/chapitre_0.md
-        - file: cours/chapitre_1.md
-        - file: cours/chapitre_2.md
-        - file: cours/chapitre_3.md
-        - file: cours/chapitre_4.md
-        - file: cours/chapitre_5.md
-        - file: cours/glossaire.md
-    - title: Notebooks
+    - file: cours/chapitre_0.md
+    - file: cours/chapitre_1.md
       children:
         - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_simple.ipynb
+    - file: cours/chapitre_2.md
+    - file: cours/chapitre_3.md
+    - file: cours/chapitre_4.md
+    - file: cours/chapitre_5.md
+    - file: cours/glossaire.md
 site:
   template: book-theme
   options:
