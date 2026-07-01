@@ -62,10 +62,10 @@ Regardons ces deux familles l'une après l'autre.
 
 ## Les forces d'interaction à distance
 
-Ces forces sont des forces d'interaction : elles sont dues à l'action d'un
-point matériel sur un autre point matériel, les deux points étant distants
-l'un de l'autre (ils ne se touchent pas !). Ces forces sont au nombre de quatre
-en physique. Elles possèdent toutes un point commun : leur intensité décroît
+Ces forces sont des forces d'interaction : elles sont dues à l'action d'un point
+matériel sur un autre point matériel, les deux points étant distants l'un de
+l'autre (ils ne se touchent pas !). Ces forces sont au nombre de quatre en
+physique. Elles possèdent toutes un point commun : leur intensité décroît
 lorsque la distance d'interaction augmente. Les quatre types de forces sont :
 
 - La force de gravitation
@@ -93,10 +93,11 @@ fois le mouvement des planètes.
 :label: def-force-gravitation
 Deux masses ponctuelles (deux points matériels) s'attirent en raison de leur
 masse et de l'inverse du carré de la distance qui les sépare, selon la
-direction passant par les deux points :
+direction passant par les deux points:
 
 $$
-\overrightarrow{F}_{m_1 \rightarrow m_2} = - \overrightarrow{F}_{m_2 \rightarrow m_1}
+\overrightarrow{F}_{m_1 \rightarrow m_2}
+= - \overrightarrow{F}_{m_2 \rightarrow m_1}
 = - \frac{G \cdot m_1 \cdot m_2}{\left( M_1M_2 \right)^2} \cdot \frac{\overrightarrow{M_1M_2}}{M_1M_2}
 $$
 
@@ -149,13 +150,14 @@ Le poids est donc toujours colinéaire à l'accélération de la pesanteur. Mais
 comment exprimer cette dernière ?
 
 Lorsque les masses sont concentrées en des points matériels, l'expression de
-l'interaction gravitationnelle est claire. Par contre, pour deux objets
-étendus, comme une planète ou une personne, on doit se poser la question de la
-position des deux points matériels.
+l'interaction gravitationnelle est claire. Par contre, pour deux objets étendus,
+comme une planète ou une personne, on doit se poser la question de la position
+des deux points matériels.
 
-Comme cela a déjà été dit dans le chapitre « Principes fondamentaux », en mécanique du
-point, les points matériels sont choisis comme étant le centre de masse des
-{term}`objets <point matériel>` auxquels on alloue la masse totale de l'objet.
+Comme cela a déjà été dit dans le chapitre « Principes fondamentaux », en
+mécanique du point, les points matériels sont choisis comme étant le centre de
+masse des {term}`objets <point matériel>` auxquels on alloue la masse totale de
+l'objet.
 
 Ainsi une planète est modélisée par une sphère parfaite homogène de masse
 moyenne et de rayon moyen $R_T$. Dans ce cas, le centre de la sphère est le
@@ -299,7 +301,8 @@ Donc, si la charge $q_2$ est en mouvement, elle subit une force totale, dite
 **force de Lorentz**, de la forme :
 
 $$
-\overrightarrow{F}_{q_1 \rightarrow q_2} = q_2\left( \overrightarrow{E} + \overrightarrow{V} \wedge \overrightarrow{B} \right)
+\overrightarrow{F}_{q_1 \rightarrow q_2} = 
+q_2\left( \overrightarrow{E} + \overrightarrow{V} \wedge \overrightarrow{B} \right)
 $$
 
 ## Les forces de contact
