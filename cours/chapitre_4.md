@@ -1,5 +1,5 @@
 ---
-title: De la dynamique du point matériel en référentiel galiléen — Mouvements plans et inclinés, chute libre et balistique
+title: Dynamique du point matériel — Mouvements usuels
 authors:
   - coralie-thieulin
 keywords:
