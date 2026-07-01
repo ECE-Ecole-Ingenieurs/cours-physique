@@ -11,9 +11,9 @@ keywords:
   - coordonnées cylindriques
   - mouvement circulaire
 abstract: |
-  Dans ce chapitre, nous étudions le mouvement d'un point matériel dans un 
+  Dans ce chapitre, nous étudions le mouvement d'un point matériel dans un
   référentiel galiléen, sans nous préoccuper de ses causes. C'est la cinématique,
-  une approche purement géométrique et mathématique qui décrit le mouvement sans 
+  une approche purement géométrique et mathématique qui décrit le mouvement sans
   encore l'expliquer.
 
   Après avoir posé les systèmes de coordonnées cartésiennes et cylindriques,
@@ -26,14 +26,14 @@ abstract: |
 
 ## Introduction
 
-Si on veut parler de vitesse ou d'accélération, il est essentiel de définir un
+Si l'on veut parler de vitesse ou d'accélération, il est essentiel de définir un
 **référentiel**, c'est-à-dire de préciser _par rapport à quoi_ on mesure cette
 vitesse et cette accélération. Ce chapitre est purement mathématique.
 
 ::::{note} Rappel — Les trois lois de Newton
 
 Si l'on regarde les [trois lois de Newton](#lois-newton) établies au chapitre
-précedent :
+précédent :
 
 **Première loi** (principe d'inertie) :
 
@@ -116,7 +116,7 @@ Quand ?
 
 Enfin, dans tout problème de mécanique, on sera amené à définir des grandeurs
 vectorielles telles que les vecteurs position, vitesse et accélération. Il
-faudra donc faire un choix de **{term}`systèmes de coordonnées <système de coordonnées>`** adaptées à la
+faudra donc faire un choix de **{term}`systèmes de coordonnées <système de coordonnées>`** adaptés à la
 géométrie du problème, et utiliser la **base** correspondante qui pourra être
 **fixe ou mobile** dans le référentiel choisi (ceci aura des conséquences sur la
 dérivation des vecteurs de la base).
@@ -130,7 +130,7 @@ systèmes de coordonnées qui sont des **bases orthonormées directes (BOND)**.
 
 Les coordonnées cartésiennes sont les plus faciles à manipuler. Un point $M$ de
 l'espace est repéré par trois coordonnées $\left( x_M , y_M , z_M \right)$ où
-$x_M,\ y_M,\ z_M \in \mathbb{R}^3$.
+$x_M,\ y_M,\ z_M \in \mathbb{R}$.
 
 Le repère est muni de trois vecteurs unitaires
 $\left( \overrightarrow{e_x}, \overrightarrow{e_y}, \overrightarrow{e_z} \right)$
@@ -161,7 +161,7 @@ Dans ce système de coordonnées, un point $M$ de l'espace est repéré par :
 - un **rayon** $r_M > 0$ ;
 - un **angle** $\theta \in \left[ 0 ; 2\pi \right[$ (angle entre l'axe $Ox$ et
   la projection du rayon $OM$ sur le plan $xOy$) ;
-- une **hauteur** $z \in \mathbb{R}$ par rapport au plan $xOy$.
+- une **hauteur** $z_M \in \mathbb{R}$ par rapport au plan $xOy$.
 
 On définit aussi trois vecteurs unitaires
 $\left( \overrightarrow{e_r}, \overrightarrow{e_\theta}, \overrightarrow{e_z} \right)$
@@ -313,7 +313,7 @@ On a alors $x^2(t) + y^2(t) = 4^2$ : c'est l'équation d'un **cercle** de centre
 $O$ de coordonnées $(0,0)$ et de rayon $4$.
 
 D'après ses équations horaires, le point $M$ décrit donc un cercle de centre $O$
-et son mouvement est **circulaire** (translation circulaire).
+et son mouvement est **circulaire**.
 :::
 
 ## Notion de vitesse d'un point matériel
@@ -333,7 +333,7 @@ Par contre, si au bout des $10\ \text{min}$ un policier vous arrête en vous
 disant que vous rouliez à $90\ \text{km/h}$, vous ne pouvez pas lui répondre que
 _c'est impossible car vous n'avez fait que 6 km en 10 minutes_.
 
-Il y a donc **deux vitesses différentes** : la vitesse énoncée par le policier
+Il y a donc **deux vitesses différentes** : la vitesse indiquée par le policier
 n'est pas une vitesse moyenne, mais une vitesse sur l'instant — une **vitesse
 instantanée**.
 :::
@@ -371,7 +371,7 @@ du temps mis pour aller d'un point à l'autre.
 
 ### Vitesse instantanée
 
-Si on fait tendre le temps de parcours vers $0$, soit $dt \rightarrow 0$, alors
+Si l'on fait tendre le temps de parcours vers $0$, soit $dt \rightarrow 0$, alors
 on a $\overrightarrow{v}(t) = \lim\limits_{dt \rightarrow 0} \overrightarrow{v_{\text{moy}}}$.
 
 Or :
@@ -407,7 +407,7 @@ L'unité de la vitesse est le mètre par seconde ($\mathrm{m\cdot s^{-1}}$).
 :::
 
 Le terme $\dfrac{d\overrightarrow{OM}}{dt}$ représente la dérivée du vecteur
-position $\overrightarrow{OM}$ en fonction du temps $t$.
+position $\overrightarrow{OM}$ par rapport au temps $t$.
 
 :::{note} Les différentes notations de la dérivée
 Il existe différentes notations pour exprimer la dérivée d'une fonction $f$ en
@@ -891,7 +891,7 @@ déplacer sur une droite.
 
 ### Mouvement circulaire
 
-Le mouvement circulaire consiste en un point matériel $M$ décrivant un cercle de
+Le mouvement circulaire consiste pour un point matériel $M$ à décrire un cercle de
 centre $O$, de rayon $R = OM$, à vitesse angulaire
 $\omega = \dfrac{d\theta}{dt} = \dot{\theta}$.
 
@@ -952,7 +952,7 @@ $\overrightarrow{u_r}$ et dirigée vers le point $O$, centre du mouvement.
 
 ### Mouvement composé : rectiligne + circulaire
 
-Ce mouvement consiste en un point matériel $M$ décrivant un cercle (rayon $R$, à
+Ce mouvement consiste pour un point matériel $M$ à décrire un cercle (de rayon $R$, à
 la vitesse angulaire $\omega = \dfrac{d\theta}{dt} = \dot{\theta}$) autour du
 point $A$, lui-même animé d'un mouvement rectiligne uniforme dans le référentiel
 d'étude $R(O, \overrightarrow{u_x}, \overrightarrow{u_y}, \overrightarrow{u_z})$.
