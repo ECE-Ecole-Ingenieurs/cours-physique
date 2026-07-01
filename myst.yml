@@ -7,7 +7,20 @@ project:
   title: Physique ING 1
   description: Cours de Physique numérique
   github: https://github.com/ECE-Ecole-Ingenieurs/cours-physique
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: README.md
+    - title: Cours
+      children:
+        - file: cours/chapitre_0.md
+        - file: cours/chapitre_1.md
+        - file: cours/chapitre_2.md
+        - file: cours/chapitre_3.md
+        - file: cours/chapitre_4.md
+        - file: cours/chapitre_5.md
+        - file: cours/glossaire.md
+    - title: Notebooks
+      children:
+        - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_simple.ipynb
 site:
   template: book-theme
   options:
