@@ -9,7 +9,7 @@ keywords:
   - frottement solide
 abstract: |
   Avant de nous lancer dans la dynamique du point matériel, nous allons
-  regarder ce qu'il se passe lorsque le point matériel est immobile. La
+  regarder ce qui se passe lorsque le point matériel est immobile. La
   statique du point consiste à reconnaître les forces qui s'appliquent sur un
   point matériel à l'équilibre et à en déduire des propriétés (forces inconnues,
   coefficient de frottement…) en appliquant deux lois.
@@ -20,7 +20,7 @@ abstract: |
 
 ## Introduction
 
-En statique du point, l'objet matériel est un point immobile où se trouve
+En statique du point, l'objet matériel est assimilé à un point immobile où se trouve
 concentrée toute la masse de l'objet. On considère, dans le cas de plusieurs
 points, que ceux-ci interagissent par l'intermédiaire de liaisons supposées
 rigides dont les masses seront considérées comme négligeables, ou bien via des
@@ -29,7 +29,7 @@ forces à distance.
 Nous avons vu dans le chapitre précédent l'ensemble des
 {term}`forces usuelles <force>` à distance ou de contact qui sont rencontrées
 le plus souvent dans un problème de mécanique. La statique du point consiste à
-reconnaître ces forces (à faire un bilan des forces appliquées sur un point
+reconnaître ces forces (à faire le bilan des forces appliquées sur un point
 matériel) et à en déduire des propriétés (forces inconnues, coefficient de
 frottement…) en appliquant deux lois.
 
@@ -45,7 +45,7 @@ $$
 $$
 :::
 
-Obligatoirement, s'il n'y a pas de mouvement, les forces appliquées sur un
+Nécessairement, s'il n'y a pas de mouvement, les forces appliquées sur un
 point matériel se compensent **vectoriellement**.
 
 :::{prf:axiom} Deuxième loi de la statique
@@ -79,7 +79,7 @@ $$
    déterminer toutes les composantes des forces sur chacun des axes composant
    le repère.
 6. Utiliser les deux lois de la statique du point, qui donneront les
-   conditions d'équilibre vectoriellement, puis les écrire en composantes
+   conditions d'équilibre sous forme vectorielle, puis les écrire en composantes
    (c'est-à-dire sur chacun des axes).
 :::
 
