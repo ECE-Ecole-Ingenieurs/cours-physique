@@ -29,7 +29,7 @@ relations fondamentales qui permettront d'étudier et de résoudre un problème 
 mécanique du point matériel. Ces relations fondamentales sont les trois lois de
 Newton. La notion de **force** intervient dans ces trois lois.
 
-Dans ce chapitre, nous allons voir les forces rencontrées le plus fréquemment
+Dans ce chapitre, nous allons voir les forces les plus fréquemment rencontrées
 dans les problèmes physiques relevant de la mécanique du point.
 
 ## La notion de force
@@ -46,7 +46,7 @@ s'appliquant sur le point va le faire changer de direction, voire de sens.
 
 Toute force est caractérisée par son intensité (norme), par une direction dans
 laquelle elle est appliquée et par un sens : les forces sont donc des **notions
-vectorielles** (comme notées dans les lois de Newton).
+vectorielles**.
 
 La dimension de toute force est $M \cdot L \cdot T^{-2}$.
 
@@ -74,7 +74,7 @@ lorsque la distance d'interaction augmente. Les quatre types de forces sont :
 - Les forces d'interaction forte
 
 :::{note}
-Les deux dernières sortent totalement du cadre de la mécanique du point car
+Les deux dernières sortent totalement du cadre de la mécanique du point, car
 elles interviennent dans la cohésion de la matière au niveau subatomique
 (physique des particules). Nous ne les aborderons donc pas.
 :::
@@ -122,7 +122,7 @@ pas appliquer cette loi.
 :::
 
 La force de gravitation est une interaction fondamentale. C'est une force
-pleine de surprises et encore bien mystérieuse. Encore de nos jours, elle est
+pleine de surprises et encore bien mystérieuse. De nos jours encore, elle est
 source de recherche et de questionnement, car sa portée est infinie : elle
 structure la répartition des masses dans l'univers tout entier. Son
 comportement aux échelles subatomiques est encore une énigme, mais elle existe
@@ -153,9 +153,9 @@ l'interaction gravitationnelle est claire. Par contre, pour deux objets
 étendus, comme une planète ou une personne, on doit se poser la question de la
 position des deux points matériels.
 
-Comme déjà dit dans le chapitre « Principes fondamentaux », en mécanique du
+Comme cela a déjà été dit dans le chapitre « Principes fondamentaux », en mécanique du
 point, les points matériels sont choisis comme étant le centre de masse des
-{term}`objets <point matériel>` auquel on alloue la masse totale de l'objet.
+{term}`objets <point matériel>` auxquels on alloue la masse totale de l'objet.
 
 Ainsi une planète est modélisée par une sphère parfaite homogène de masse
 moyenne et de rayon moyen $R_T$. Dans ce cas, le centre de la sphère est le
@@ -295,8 +295,8 @@ champ magnétique.
 La force magnétique est donc toujours perpendiculaire à la vitesse de la
 charge.
 
-Donc si la charge $q_2$ est en mouvement, elle subit une force totale, dite
-**force de Lorentz**, de :
+Donc, si la charge $q_2$ est en mouvement, elle subit une force totale, dite
+**force de Lorentz**, de la forme :
 
 $$
 \overrightarrow{F}_{q_1 \rightarrow q_2} = q_2\left( \overrightarrow{E} + \overrightarrow{V} \wedge \overrightarrow{B} \right)
@@ -356,7 +356,7 @@ C'est en fait ce que l'on appelle la force de frottement solide entre la masse
 $m$ (point $M$) et le support solide.
 
 :::{note}
-La notion de frottement solide est une notion complexe, car elle fait
+La notion de frottement solide est complexe, car elle fait
 intervenir les forces au niveau moléculaire (contact au niveau moléculaire).
 :::
 
