@@ -46,4 +46,14 @@ vitesse instantanée
 accélération
 : Dérivée temporelle du vecteur vitesse (ou dérivée seconde du vecteur
   position). Voir la [définition complète](#def-acceleration).
+
+force
+: Quantité vectorielle qui modélise l'action exercée sur un système physique,
+  caractérisée par une intensité, une direction et un sens. Voir la
+  [définition complète](#def-force).
+
+poids
+: Force de gravitation exercée par une planète sur des objets dans son
+  entourage proche, $\overrightarrow{P} = m\overrightarrow{g}$. Voir la
+  [définition complète](#def-poids).
 :::
