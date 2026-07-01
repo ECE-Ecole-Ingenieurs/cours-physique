@@ -12,9 +12,7 @@ abstract: |
   qui a les mêmes propriétés dans tous les sens.
 ---
 
-# Principes fondamentaux
-
-# Introduction
+## Introduction
 
 Dans un cours sur la mécanique du point matériel, il est naturel de commencer
 par se poser la question suivante : _qu'est-ce que la mécanique du point
@@ -23,8 +21,7 @@ matériel_ ?
 La mécanique du point est la base de la **mécanique classique**, aussi appelée
 **mécanique Newtonienne** car on la doit au physicien **_Isaac Newton_**. C'est
 la théorie Physique qui traite du mouvement d'objets qui se déplacent à des
-vitesses faibles par rapport à la vitesse de la lumière ($c = 3.\ 10^{8}\ m.s^{-
-1}$). Dans le cas de vitesses importantes par rapport à la vitesse de la
+vitesses faibles par rapport à la vitesse de la lumière ($c = 3{,}0 \times 10^{8}\ \mathrm{m \cdot s^{-1}}$). Dans le cas de vitesses importantes par rapport à la vitesse de la
 lumière, on doit utiliser la **mécanique relativiste**. De plus, la taille des
 objets considérés doit être petite par rapport à l'échelle du problème envisagé
 pour négliger les mouvements internes de l'objet. Par exemple, la mécanique du
@@ -77,7 +74,7 @@ grande devant les dimensions atomiques :
 
 :::
 
-# La révolution Newtonienne
+## La révolution Newtonienne
 
 Si l'histoire de la mécanique débute réellement avec Galilée au XVIIème siècle,
 cette science prend ses racines dans des savoirs datant de l'Antiquité notamment
@@ -112,12 +109,15 @@ _Philosophiae naturalis principia mathematica_, ouvrage scientifique en trois
 tomes. Dans le premier tome, Newton expose les 3 lois du mouvement universel
 (qui à l'origine de sa réflexion étaient au nombre de 5). Il y clarifie des
 notions fondamentales qui n'étaient pas claires auparavant sur les forces et il
-définit en termes scientifiques la [notion de masse, c'est à dire la quantité de
-matière que possède un corps indépendamment de son volume.]{.underline} La masse
-d'un corps réel peut varier au cours du temps pour de nombreuses raisons. La
+définit en termes scientifiques la notion de _masse_, c'est à dire la quantité
+de matière que possède un corps indépendamment de son volume. La masse d'un
+corps réel peut varier au cours du temps pour de nombreuses raisons. La
 mécanique de Newton ne considère pas ce cas. Le modèle choisi implique que la
-masse du corps étudié est constante pendant l'étude de son mouvement : $m =
-cte$.
+masse du corps étudié est constante pendant l'étude de son mouvement : 
+
+$$
+m = cte
+$$
 
 C'est la première restriction importante dans la théorie de mécanique
 Newtonienne.
@@ -207,7 +207,7 @@ Dans un référentiel galiléen, la résultante des forces extérieures appliqu�
 ```
 ````
 
-## Le principe d'action-réaction
+### Le principe d'action-réaction
 
 Quand deux corps interagissent l'un avec l'autre, la force exercée par le
 premier corps sur le second est égale en intensité, de même direction et opposée
@@ -372,9 +372,9 @@ classique, utiliser le principe fondamental de la dynamique ou la seconde loi de
 Newton est parfaitement équivalent.
 :::
 
-# Conditions d'application du PFD
+## Conditions d'application du PFD
 
-## Référentiels, repères et systèmes de coordonnées
+### Référentiels, repères et systèmes de coordonnées
 
 Avant tout, il est essentiel de préciser la signification de ces notions.
 
@@ -405,7 +405,7 @@ Mais, comme en mécanique Newtonienne on considère le temps comme absolu, il
 n'est pas nécessaire de l'indiquer.
 :::
 
-:::{prf:definition} Systèmes de coordonnées
+::::{prf:definition} Systèmes de coordonnées
 
 Afin de déterminer les composantes du mouvement du corps dans le référentiel et
 de quantifier ce mouvement, le plus simple consiste à prendre un système d'axes
@@ -422,8 +422,9 @@ Si la base de résolution est différente de celle liée au référentiel,
 ces vecteurs unitaires ne seront pas fixes dans le référentiel : leurs sens et
 directions vont suivre le mouvement.
 :::
+::::
 
-## Référentiel Inertiel (ou Galiléen)
+### Référentiel Inertiel (ou Galiléen)
 
 C'est le référentiel utilisé en mécanique du point (en mécanique classique). En
 effet, la première et la seconde loi de Newton ne sont valables que lorsqu'elles
@@ -465,7 +466,7 @@ aux étoiles : ce référentiel a été défini par Nicolas Copernic dès 1517.
 généralement appelé le référentiel de Copernic. Le référentiel héliocentrique a
 lui pour origine le centre du Soleil.
 
-## Ensemble des référentiels Galiléens
+### Ensemble des référentiels Galiléens
 
 Si l'on connait un seul référentiel Galiléen R (le référentiel de Copernic par
 exemple ou le référentiel terrestre), on peut en définir une infinité.
@@ -491,11 +492,18 @@ Il existe différents types de translations :
 
 :::
 
-:::{prf:example}
+::::{prf:example}
 
-![](/media/ch0-img1.png)
+:::{figure} /media/ch0-img1.png
+:label: fig-train-galileen
+:align: center
+:width: 70%
 
-Un passager (noté 1) se déplace à la vitesse $\overrightarrow{v}$' dans un train
+Passager 1 se déplaçant dans un train en translation rectiligne uniforme par
+rapport au référentiel terrestre.
+:::
+
+Un passager (noté 1) se déplace à la vitesse $\overrightarrow{v}'$ dans un train
 se déplaçant à la vitesse constante $\overrightarrow{v}$ par rapport au sol.
 
 Le train est donc en **translation rectiligne uniforme** par rapport au sol : il
@@ -506,7 +514,7 @@ pseudo-Galiléen.
 On peut définir le train comme le référentiel $R'\left(
 0',\overrightarrow{U_{x'}},\overrightarrow{U_{y'}} \right)$ qui est galiléen.
 C'est effectivement un ensemble de point fixe pour le passager 1 qui se déplace.
-:::
+::::
 
 ## Bilan du chapitre
 
