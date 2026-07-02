@@ -13,6 +13,7 @@ project:
     - file: cours/chapitre_1.md
       children:
         - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
+        - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
     - file: cours/chapitre_2.md
     - file: cours/chapitre_3.md
     - file: cours/chapitre_4.md
