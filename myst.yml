@@ -24,4 +24,4 @@ site:
   template: book-theme
   options:
     logo: media/ece-logo.png
-  #  favicon: favicon.ico
+    favicon: media/ece-logo.png
