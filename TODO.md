@@ -17,6 +17,44 @@
   **État :** la version étudiant affiche directement les curseurs en local.
   La version enseignant conserve une image statique pour le book et masque la
   cellule interactive lors de la publication.
+
+### Amélioration des visualisations
+
+#### Projection du vecteur position
+
+- [ ] Limiter les coordonnées proposées par les curseurs à des valeurs
+  positives afin de travailler dans le premier octant.
+- [ ] Remplacer les segments en pointillés représentant les composantes par
+  des flèches colorées réalisées avec `quiver`.
+- [ ] Utiliser, dans les légendes, les mêmes couleurs que celles des flèches
+  correspondantes.
+- [ ] Disposer les flèches de manière à faire apparaître la construction de
+  la somme vectorielle :
+  $\overrightarrow{OM}
+  = x\overrightarrow{e_x}
+  + y\overrightarrow{e_y}
+  + z\overrightarrow{e_z}$.
+
+#### Représentation plane des bases
+
+- [ ] Remplacer la légende par des étiquettes placées directement à
+  l'extrémité des vecteurs
+  $\overrightarrow{e_x}$, $\overrightarrow{e_y}$,
+  $\overrightarrow{e_r}$ et $\overrightarrow{e_\theta}$.
+- [ ] Retirer la boîte de légende afin d'obtenir une figure plus claire et
+  plus autonome.
+
+#### Visualisation 3D
+
+- [ ] Représenter en noir la base cartésienne
+  $(\overrightarrow{e_x},\overrightarrow{e_y},\overrightarrow{e_z})$ à
+  l'origine du repère.
+- [ ] Représenter au point $M$ la base cylindrique mobile
+  $(\overrightarrow{e_r},\overrightarrow{e_\theta},
+  \overrightarrow{e_z})$.
+- [ ] Mettre à jour l'orientation et la position de la base cylindrique
+  lorsque le point $M$ se déplace avec les curseurs.
+
 - [ ] Ajouter une section « Pour aller plus loin » consacrée aux coordonnées
   sphériques ou à un autre système de coordonnées.
 - [ ] Envoyer le notebook aux professeurs lorsqu'il sera terminé.
