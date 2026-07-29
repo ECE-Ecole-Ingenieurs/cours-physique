@@ -4,7 +4,7 @@
 
 - [x] Ajouter une partie sur le changement de base et la projection de
   vecteurs.
-- [ ] Conserver l'introduction, mais retirer les admonitions de type `note`.
+- [x] Conserver l'introduction, mais retirer les admonitions de type `note`.
 - [x] Ajouter une partie sur la projection.
 - [ ] Dans la partie sur le changement de base, ajouter l'angle $\theta$ sur
   la figure dans le plan.
