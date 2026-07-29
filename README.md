@@ -8,20 +8,25 @@ keywords:
   - python
 ---
 
-# Cours de phyisque
+# Cours de physique
 
-Cours et travaux pratiques du cours de physique ING 1. 
+Cours et travaux pratiques de physique ING 1.
 
 ## Structure
 
-- `book/` : version web du cours.
-- `notebooks/` : notebooks
-- `assets/` : images et figures utilisées dans le cours.
+- `cours/` : chapitres de la version web ;
+- `notebooks/` : notebooks corrigés ;
+- `notebooks_student/` : notebooks à compléter ;
+- `media/` : images et figures utilisées dans le cours.
 
 ## Installation
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Lancer un notebook
 
+```bash
 jupyter lab
+```
