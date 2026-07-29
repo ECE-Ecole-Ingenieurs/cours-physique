@@ -6,16 +6,17 @@
   vecteurs.
 - [x] Conserver l'introduction, mais retirer les admonitions de type `note`.
 - [x] Ajouter une partie sur la projection.
-- [ ] Dans la partie sur le changement de base, ajouter l'angle $\theta$ sur
+- [x] Dans la partie sur le changement de base, ajouter l'angle $\theta$ sur
   la figure dans le plan.
 
-  **État :** l'angle apparaît dans la visualisation 3D, mais pas sur la figure
-  plane représentant les bases.
-- [ ] Dans la partie sur les systèmes de coordonnées, retirer l'image fixe et
+  **État :** l'angle apparaît désormais dans la visualisation 3D et sur la
+  figure plane représentant les bases.
+- [x] Dans la partie sur les systèmes de coordonnées, retirer l'image fixe et
   afficher directement les curseurs.
 
-  **État :** les curseurs existent, mais les appels produisant les figures
-  fixes sont encore présents.
+  **État :** la version étudiant affiche directement les curseurs en local.
+  La version enseignant conserve une image statique pour le book et masque la
+  cellule interactive lors de la publication.
 - [ ] Ajouter une section « Pour aller plus loin » consacrée aux coordonnées
   sphériques ou à un autre système de coordonnées.
 - [ ] Envoyer le notebook aux professeurs lorsqu'il sera terminé.
