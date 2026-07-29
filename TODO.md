@@ -1,60 +1,119 @@
-# TODO
+# Tâches à réaliser
 
-- changement de base, projection de vecteurs.
+## Notebook 1 — Systèmes de coordonnées
 
-# NB 1
+- [x] Ajouter une partie sur le changement de base et la projection de
+  vecteurs.
+- [ ] Conserver l'introduction, mais retirer les admonitions de type `note`.
+- [x] Ajouter une partie sur la projection.
+- [ ] Dans la partie sur le changement de base, ajouter l'angle $\theta$ sur
+  la figure dans le plan.
 
-- Laisser l'introduction enlever les admonitions note
-- Projection
-- Changement de base : rajouter theta sur la figure dans le plan
-- Sys. coord. : enlever li'mage fixe et laisser directemente les sliders 
-- pour aller plus loin : repere spherique ou autre.
-- A envoyer aux profs dès que fini
+  **État :** l'angle apparaît dans la visualisation 3D, mais pas sur la figure
+  plane représentant les bases.
+- [ ] Dans la partie sur les systèmes de coordonnées, retirer l'image fixe et
+  afficher directement les curseurs.
 
-# NB 2 : Cinématique
+  **État :** les curseurs existent, mais les appels produisant les figures
+  fixes sont encore présents.
+- [ ] Ajouter une section « Pour aller plus loin » consacrée aux coordonnées
+  sphériques ou à un autre système de coordonnées.
+- [ ] Envoyer le notebook aux professeurs lorsqu'il sera terminé.
 
-- Eq. horaires : animation avec le tracé de la trajectoire et le tracé de
-  l'évolution des composantes, avec le vecteur. Voir pour un sys. coord. diff.,
-  par exemple avec une trajectoire en hélico dans une boîte de camembert. Faire
-  varier r, theta et z pour observer l'effet : variation linéaire.
+## Notebook 2 — Cinématique
 
-- Demander les dimensions des coeff A B C et demander hom à vitesse
-- Box pour choisir l'affichage de chaque proj, afficher les eq. horaires dans le 3D
-- Affichage des eq horarires au four 
-- bien cadrer les axes pour commencer à 0,0,0
-- rajouter projections sur le plan 
+### Équations horaires et trajectoire
 
-- Cylindre : ajouter questions concernant les unités
+- [ ] Créer une animation qui affiche simultanément les éléments suivants.
 
-- Accélération et vitesse : centripète et centrifuge
+  **État :** une visualisation interactive avec un curseur temporel existe,
+  mais il ne s'agit pas encore d'une animation autonome.
+  - [x] la trajectoire ;
+  - [x] l'évolution des composantes ;
+  - [x] le vecteur position.
+- [x] Étudier un autre système de coordonnées, par exemple une trajectoire
+  hélicoïdale dans un cylindre.
+- [ ] Faire varier linéairement $r$, $\theta$ et $z$ afin d'observer l'effet
+  de chaque paramètre.
 
-- La cycloïde animation
+  **État :** les lois $r(t)=r_0+a_rt$, $\theta(t)=At$ et $z(t)=Bt$ sont
+  implémentées, mais la version générale ne dispose pas encore de curseurs
+  permettant de faire varier tous les coefficients.
+- [ ] Demander les dimensions des coefficients $A$, $B$ et $C$.
+- [ ] Vérifier l'homogénéité dimensionnelle de la vitesse.
+- [ ] Ajouter des cases permettant de choisir les projections à afficher.
+- [ ] Afficher les équations horaires dans la représentation 3D.
+- [ ] Afficher les équations horaires au fur et à mesure de l'animation.
+- [ ] Cadrer correctement les axes afin qu'ils commencent en $(0,0,0)$.
+- [ ] Ajouter les projections de la trajectoire sur les différents plans.
+- [ ] Pour le mouvement cylindrique, ajouter des questions sur les unités.
 
-# NB 4 : Dynamique (2h)
+### Vitesse et accélération
 
-- Chute libre : regarder le stage numérique, parachutiste, plongeur, regarder
-  des exemples et introduire des animations
-- Ballistique : étude paramétrique, conditions initiales (v0, h0, theta0),
-  parabole de sûreté. **Avec et sans frottement**
+- [ ] Expliquer la différence entre les notions centripète et centrifuge.
+- [ ] Ajouter une animation représentant une cycloïde.
 
-# NB 5 : Oscillations : MIN 2
+## Notebook 4 — Dynamique (durée prévue : 2 h)
 
-- Section généralités, équations. a chaue fois comparer meca vs electronique, analogie 
+### Chute libre
 
-1. libre : en fonction des différents facteurs de qualité.
-   - Applications méca : masse ressort, pendule, associations des ressorts
-   - Applications élec : LC, RLC
+- [ ] Examiner le « stage numérique » ainsi que des exemples de parachutiste
+  et de plongeur.
+- [ ] Introduire des animations permettant de comparer ces différents cas.
 
-2. forcée : A(omega) -> tracer x(t) en fonction de A et phi qui dépendent de omega et une autre force que le cos
-   - Résonance
-   - Force autre que cos, parler avec Hamzeh pour l'exmeple de l'avion (code source)
-   - Introduire une animation, médias, pour mettre en évidence le phénomène.
-     Pont en résonance ou autres exemples
-   - Applications méca : masse ressort, pendule
-   - Applications élec : LC, RLC
+### Balistique
 
-> Chercher des cas parlants.
+- [ ] Réaliser une étude paramétrique faisant varier les conditions initiales :
+  $v_0$, $h_0$ et $\theta_0$.
+- [ ] Introduire la parabole de sûreté.
+- [ ] Comparer les mouvements avec et sans frottement.
 
-# Contenu
+## Notebook 5 — Oscillations (au moins deux notebooks)
 
-- vers la fin, section **À retenir** et **Compétences acquises**
+### Généralités
+
+- [ ] Ajouter une section présentant les notions générales et les équations
+  fondamentales.
+- [ ] Comparer, pour chaque situation, les systèmes mécaniques et
+  électroniques en mettant en évidence leurs analogies.
+
+### 1. Oscillations libres
+
+- [ ] Étudier les oscillations libres en fonction des différents facteurs de
+  qualité.
+- [ ] Présenter des applications mécaniques :
+  - [ ] système masse-ressort ;
+  - [ ] pendule ;
+  - [ ] associations de ressorts.
+- [ ] Présenter des applications électroniques :
+  - [ ] circuit LC ;
+  - [ ] circuit RLC.
+
+### 2. Oscillations forcées
+
+- [ ] Tracer $x(t)$ en tenant compte de l'amplitude $A(\omega)$ et de la phase
+  $\varphi(\omega)$.
+- [ ] Étudier une force d'excitation différente d'un cosinus.
+- [ ] Présenter le phénomène de résonance.
+- [ ] Contacter Hamzeh pour obtenir le code source de l'exemple de l'avion.
+- [ ] Introduire une animation ou un média mettant en évidence le phénomène
+  de résonance, par exemple un pont en résonance.
+- [ ] Présenter des applications mécaniques :
+  - [ ] système masse-ressort ;
+  - [ ] pendule.
+- [ ] Présenter des applications électroniques :
+  - [ ] circuit LC ;
+  - [ ] circuit RLC.
+- [ ] Rechercher des exemples concrets et parlants.
+
+## Structure du contenu
+
+- [ ] Ajouter, vers la fin de chaque chapitre ou notebook, une section
+  « À retenir ».
+
+  **État :** cette section existe déjà dans le notebook 2, mais pas dans tous
+  les contenus concernés.
+- [ ] Ajouter une section « Compétences acquises ».
+
+  **État :** cette section existe déjà dans le notebook 2, mais pas dans tous
+  les contenus concernés.
