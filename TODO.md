@@ -86,7 +86,9 @@
   implémentées et leurs coefficients peuvent désormais être modifiés
   interactivement. Les bornes des curseurs garantissent $0\leq r(t)\leq 6$
   et $0\leq z(t)\leq 10$.
-- [ ] Demander les dimensions des coefficients $A$, $B$ et $C$.
+- [x] Demander les dimensions des coefficients $A$, $B$ et $C$, leur
+  interprétation physique et la raison pour laquelle $\omega t$ doit être sans
+  dimension.
 - [ ] Vérifier l'homogénéité dimensionnelle de la vitesse.
 - [x] Ajouter, dans les trois visualisations 3D, des cases permettant de choisir
   les projections à afficher.
