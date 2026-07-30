@@ -37,11 +37,11 @@
 
 #### Représentation plane des bases
 
-- [ ] Remplacer la légende par des étiquettes placées directement à
+- [x] Remplacer la légende par des étiquettes placées directement à
   l'extrémité des vecteurs
   $\overrightarrow{e_x}$, $\overrightarrow{e_y}$,
   $\overrightarrow{e_r}$ et $\overrightarrow{e_\theta}$.
-- [ ] Retirer la boîte de légende afin d'obtenir une figure plus claire et
+- [x] Retirer la boîte de légende afin d'obtenir une figure plus claire et
   plus autonome.
 
 #### Visualisation 3D
