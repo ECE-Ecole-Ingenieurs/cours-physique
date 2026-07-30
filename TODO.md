@@ -66,10 +66,17 @@
 - [ ] Créer une animation qui affiche simultanément les éléments suivants.
 
   **État :** une visualisation interactive avec un curseur temporel existe,
-  mais il ne s'agit pas encore d'une animation autonome.
+  mais il ne s'agit pas encore d'une animation autonome. La trajectoire est
+  tracée uniquement jusqu'à l'instant sélectionné, tandis que les limites des
+  axes restent fixes.
   - [x] la trajectoire ;
   - [x] l'évolution des composantes ;
   - [x] le vecteur position.
+- [x] Dans la première visualisation cartésienne, conserver uniquement la
+  trajectoire 3D et retirer le graphique séparé des équations horaires.
+- [x] Harmoniser la publication des versions enseignant et étudiant : conserver
+  une image statique dans la version enseignant et afficher directement le
+  widget dans la version étudiant.
 - [x] Étudier un autre système de coordonnées, par exemple une trajectoire
   hélicoïdale dans un cylindre.
 - [ ] Faire varier linéairement $r$, $\theta$ et $z$ afin d'observer l'effet
