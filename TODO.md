@@ -98,7 +98,8 @@
 - [x] Ajouter, dans les trois visualisations 3D, les projections de la
   trajectoire sur les plans $xy$, $xz$ et $yz$, ainsi que les segments reliant
   le point $M$ à ses projections.
-- [ ] Pour le mouvement cylindrique, ajouter des questions sur les unités.
+- [x] Pour le mouvement cylindrique, ajouter des questions sur les dimensions,
+  les unités et l'interprétation physique de $r_0$, $A$ et $B$.
 
 ### Vitesse et accélération
 
