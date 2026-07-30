@@ -87,7 +87,8 @@
   permettant de faire varier tous les coefficients.
 - [ ] Demander les dimensions des coefficients $A$, $B$ et $C$.
 - [ ] Vérifier l'homogénéité dimensionnelle de la vitesse.
-- [ ] Ajouter des cases permettant de choisir les projections à afficher.
+- [x] Ajouter, dans la première visualisation cartésienne, des cases permettant
+  de choisir les projections à afficher.
 - [ ] Afficher les équations horaires dans la représentation 3D.
 - [ ] Afficher les équations horaires au fur et à mesure de l'animation.
 - [ ] Cadrer correctement les axes afin qu'ils commencent en $(0,0,0)$.
