@@ -46,13 +46,13 @@
 
 #### Visualisation 3D
 
-- [ ] Représenter en noir la base cartésienne
+- [x] Représenter en noir la base cartésienne
   $(\overrightarrow{e_x},\overrightarrow{e_y},\overrightarrow{e_z})$ à
   l'origine du repère.
-- [ ] Représenter au point $M$ la base cylindrique mobile
+- [x] Représenter au point $M$ la base cylindrique mobile
   $(\overrightarrow{e_r},\overrightarrow{e_\theta},
   \overrightarrow{e_z})$.
-- [ ] Mettre à jour l'orientation et la position de la base cylindrique
+- [x] Mettre à jour l'orientation et la position de la base cylindrique
   lorsque le point $M$ se déplace avec les curseurs.
 
 - [ ] Ajouter une section « Pour aller plus loin » consacrée aux coordonnées
