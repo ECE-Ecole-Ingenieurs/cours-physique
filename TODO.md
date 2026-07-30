@@ -63,15 +63,13 @@
 
 ### Équations horaires et trajectoire
 
-- [ ] Créer une animation qui affiche simultanément les éléments suivants.
+- [ ] **Optionnel — version enseignant :** intégrer dans la page web une
+  animation autonome de la trajectoire, sans remplacer le curseur temporel ni
+  les contrôles interactifs de la version étudiant.
 
-  **État :** une visualisation interactive avec un curseur temporel existe,
-  mais il ne s'agit pas encore d'une animation autonome. La trajectoire est
-  tracée uniquement jusqu'à l'instant sélectionné, tandis que les limites des
-  axes restent fixes.
-  - [x] la trajectoire ;
-  - [x] l'évolution des composantes ;
-  - [x] le vecteur position.
+  **État :** la trajectoire, ses projections et le vecteur position sont déjà
+  mis à jour jusqu'à l'instant sélectionné, tandis que les limites des axes
+  restent fixes.
 - [x] Dans les trois visualisations 3D, conserver uniquement la trajectoire et
   retirer le graphique séparé des équations horaires.
 - [x] Harmoniser la publication des versions enseignant et étudiant : conserver
@@ -89,12 +87,15 @@
 - [x] Demander les dimensions des coefficients $A$, $B$ et $C$, leur
   interprétation physique et la raison pour laquelle $\omega t$ doit être sans
   dimension.
-- [ ] Vérifier l'homogénéité dimensionnelle de la vitesse.
+- [x] Vérifier l'homogénéité dimensionnelle des coefficients à partir de leurs
+  unités.
 - [x] Ajouter, dans les trois visualisations 3D, des cases permettant de choisir
   les projections à afficher.
-- [ ] Afficher les équations horaires dans la représentation 3D.
-- [ ] Afficher les équations horaires au fur et à mesure de l'animation.
-- [ ] Cadrer correctement les axes afin qu'ils commencent en $(0,0,0)$.
+- [x] Afficher, dans la représentation 3D, les projections associées aux
+  équations horaires.
+- [x] Mettre à jour la trajectoire et ses projections jusqu'à l'instant
+  sélectionné avec le curseur.
+- [x] Faire coïncider les graduations extrêmes avec les limites fixées des axes.
 - [x] Ajouter, dans les trois visualisations 3D, les projections de la
   trajectoire sur les plans $xy$, $xz$ et $yz$, ainsi que les segments reliant
   le point $M$ à ses projections.
