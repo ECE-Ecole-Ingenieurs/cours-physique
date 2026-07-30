@@ -72,28 +72,30 @@
   - [x] la trajectoire ;
   - [x] l'évolution des composantes ;
   - [x] le vecteur position.
-- [x] Dans les visualisations cartésienne et cylindrique, conserver uniquement
-  la trajectoire 3D et retirer le graphique séparé des équations horaires.
+- [x] Dans les trois visualisations 3D, conserver uniquement la trajectoire et
+  retirer le graphique séparé des équations horaires.
 - [x] Harmoniser la publication des versions enseignant et étudiant : conserver
   une image statique dans la version enseignant et afficher directement le
   widget dans la version étudiant.
 - [x] Étudier un autre système de coordonnées, par exemple une trajectoire
   hélicoïdale dans un cylindre.
-- [ ] Ajouter à la visualisation cylindrique générale des curseurs permettant
+- [x] Ajouter à la visualisation cylindrique générale des curseurs permettant
   d'étudier séparément l'effet de $a_r$, $A$ et $B$.
 
   **État :** les lois $r(t)=r_0+a_rt$, $\theta(t)=At$ et $z(t)=Bt$ sont déjà
-  implémentées, mais la visualisation générale reste statique.
+  implémentées et leurs coefficients peuvent désormais être modifiés
+  interactivement. Les bornes des curseurs garantissent $0\leq r(t)\leq 6$
+  et $0\leq z(t)\leq 10$.
 - [ ] Demander les dimensions des coefficients $A$, $B$ et $C$.
 - [ ] Vérifier l'homogénéité dimensionnelle de la vitesse.
-- [x] Ajouter, dans les visualisations cartésienne et cylindrique, des cases
-  permettant de choisir les projections à afficher.
+- [x] Ajouter, dans les trois visualisations 3D, des cases permettant de choisir
+  les projections à afficher.
 - [ ] Afficher les équations horaires dans la représentation 3D.
 - [ ] Afficher les équations horaires au fur et à mesure de l'animation.
 - [ ] Cadrer correctement les axes afin qu'ils commencent en $(0,0,0)$.
-- [x] Ajouter, dans les visualisations cartésienne et cylindrique, les
-  projections de la trajectoire sur les plans $xy$, $xz$ et $yz$, ainsi que
-  les segments reliant le point $M$ à ses projections.
+- [x] Ajouter, dans les trois visualisations 3D, les projections de la
+  trajectoire sur les plans $xy$, $xz$ et $yz$, ainsi que les segments reliant
+  le point $M$ à ses projections.
 - [ ] Pour le mouvement cylindrique, ajouter des questions sur les unités.
 
 ### Vitesse et accélération
