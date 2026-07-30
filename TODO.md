@@ -22,13 +22,13 @@
 
 #### Projection du vecteur position
 
-- [ ] Limiter les coordonnées proposées par les curseurs à des valeurs
+- [x] Limiter les coordonnées proposées par les curseurs à des valeurs
   positives afin de travailler dans le premier octant.
-- [ ] Remplacer les segments en pointillés représentant les composantes par
+- [x] Remplacer les segments en pointillés représentant les composantes par
   des flèches colorées réalisées avec `quiver`.
-- [ ] Utiliser, dans les légendes, les mêmes couleurs que celles des flèches
+- [x] Utiliser, dans les légendes, les mêmes couleurs que celles des flèches
   correspondantes.
-- [ ] Disposer les flèches de manière à faire apparaître la construction de
+- [x] Disposer les flèches de manière à faire apparaître la construction de
   la somme vectorielle :
   $\overrightarrow{OM}
   = x\overrightarrow{e_x}
