@@ -91,7 +91,9 @@
 - [ ] Afficher les équations horaires dans la représentation 3D.
 - [ ] Afficher les équations horaires au fur et à mesure de l'animation.
 - [ ] Cadrer correctement les axes afin qu'ils commencent en $(0,0,0)$.
-- [ ] Ajouter les projections de la trajectoire sur les différents plans.
+- [x] Ajouter, dans la première visualisation cartésienne, les projections de
+  la trajectoire sur les plans $xy$, $xz$ et $yz$, ainsi que les segments
+  reliant le point $M$ à ses projections.
 - [ ] Pour le mouvement cylindrique, ajouter des questions sur les unités.
 
 ### Vitesse et accélération
