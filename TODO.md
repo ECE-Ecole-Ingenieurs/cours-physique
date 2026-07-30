@@ -55,7 +55,7 @@
 - [x] Mettre à jour l'orientation et la position de la base cylindrique
   lorsque le point $M$ se déplace avec les curseurs.
 
-- [ ] Ajouter une section « Pour aller plus loin » consacrée aux coordonnées
+- [x] Ajouter une section « Pour aller plus loin » consacrée aux coordonnées
   sphériques ou à un autre système de coordonnées.
 - [ ] Envoyer le notebook aux professeurs lorsqu'il sera terminé.
 
