@@ -113,6 +113,10 @@
 - [x] Visualiser dans un repère polaire la trajectoire, la vitesse et
   l'accélération centripète dans le cas uniforme.
 - [x] Expliquer la différence entre les directions centripète et centrifuge.
+- [x] Relier l'accélération centripète à la résultante des forces avec la
+  deuxième loi de Newton.
+- [x] Implémenter et représenter les forces centripète et centrifuge en
+  précisant leurs référentiels d'utilisation.
 - [ ] Définir avec l'équipe enseignante les questions de synthèse du bilan.
 
 ## Notebook 4 — Dynamique (durée prévue : 2 h)
