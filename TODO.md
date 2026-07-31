@@ -102,11 +102,18 @@
 - [x] Pour les mouvements cylindriques, ajouter des questions sur les dimensions,
   les unités et l'interprétation physique de $r_0$, $a_r$, $A$ et $B$, puis
   étudier interactivement plusieurs cas particuliers.
+- [ ] Ajouter une animation autonome représentant une cycloïde.
 
-### Vitesse et accélération
+## Notebook 3 — Vitesse et accélération
 
-- [ ] Expliquer la différence entre les notions centripète et centrifuge.
-- [ ] Ajouter une animation représentant une cycloïde.
+### Mouvement circulaire en coordonnées polaires
+
+- [x] Exprimer les composantes polaires de la vitesse et de l'accélération.
+- [x] Implémenter les fonctions permettant de calculer ces composantes.
+- [x] Visualiser dans un repère polaire la trajectoire, la vitesse et
+  l'accélération centripète dans le cas uniforme.
+- [x] Expliquer la différence entre les directions centripète et centrifuge.
+- [ ] Définir avec l'équipe enseignante les questions de synthèse du bilan.
 
 ## Notebook 4 — Dynamique (durée prévue : 2 h)
 

@@ -14,6 +14,7 @@ project:
       children:
         - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
         - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
+        - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
         - file: notebooks/test_animation_chute_libre.ipynb
     - file: cours/chapitre_2.md
     - file: cours/chapitre_3.md
