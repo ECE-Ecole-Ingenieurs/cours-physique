@@ -197,13 +197,18 @@
 
 ## Structure du contenu
 
-- [ ] Entre les questions théoriques et le travail de programmation, ajouter un
+- [x] Entre les questions théoriques et le travail de programmation, ajouter un
   bloc « Appelez le professeur » demandant aux étudiants de faire valider leurs
   réponses avant de commencer à coder.
 
   **Objectif :** distinguer clairement le raisonnement physique de sa mise en
   œuvre numérique et permettre une vérification intermédiaire avec
   l'enseignant.
+
+  **État :** ajouté systématiquement entre « Questions ouvertes » et
+  « Implémentation » dans les TP 1 à 3 (9 sections). À revoir : peut-être pas
+  pertinent partout, à retirer au cas par cas si certaines sections ne le
+  justifient pas.
 - [ ] Terminer chaque notebook par une application physique concrète, placée
   dans la progression principale ou dans « Pour aller plus loin » selon sa
   difficulté.
