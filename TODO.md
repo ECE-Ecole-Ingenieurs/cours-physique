@@ -128,6 +128,10 @@
   précisant leurs référentiels d'utilisation.
 - [ ] Définir avec l'équipe enseignante les questions de synthèse du bilan.
 
+  **État :** un résumé et une première question de synthèse ont été rédigés ;
+  le bloc est marqué « À revoir avec les profs » dans le notebook enseignant
+  en attendant leur validation.
+
 ## Notebook 4 — Dynamique (durée prévue : 2 h)
 
 ### Continuité avec les notebooks précédents
