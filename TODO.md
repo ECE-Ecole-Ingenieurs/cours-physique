@@ -205,10 +205,11 @@
   œuvre numérique et permettre une vérification intermédiaire avec
   l'enseignant.
 
-  **État :** ajouté systématiquement entre « Questions ouvertes » et
-  « Implémentation » dans les TP 1 à 3 (9 sections). À revoir : peut-être pas
-  pertinent partout, à retirer au cas par cas si certaines sections ne le
-  justifient pas.
+  **État :** conservé uniquement là où la question théorique demande une
+  véritable dérivation dont une erreur se propagerait silencieusement au
+  code (TP01 §3-4, TP03 §2-3). Retiré des sections où la question ne porte
+  que sur l'interprétation d'une formule déjà donnée (TP01 §2, TP02 §2-5),
+  où le risque de dérivation est faible.
 - [ ] Terminer chaque notebook par une application physique concrète, placée
   dans la progression principale ou dans « Pour aller plus loin » selon sa
   difficulté.
