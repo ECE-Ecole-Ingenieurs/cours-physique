@@ -13,8 +13,6 @@ project:
       children:
         - file: cours/chapitre_0.md
         - file: cours/chapitre_1.md
-          children:
-            - file: notebooks/test_animation_chute_libre.ipynb
         - file: cours/chapitre_2.md
         - file: cours/chapitre_3.md
         - file: cours/chapitre_4.md
@@ -33,7 +31,7 @@ project:
         - title: Dynamique
           children:
             - file: notebooks/tp04_chute_libre_frottements_teacher.ipynb
-              title: TP4 - Chute libre et frottements
+              title: TP4 - Chute libre
 site:
   template: book-theme
   options:
