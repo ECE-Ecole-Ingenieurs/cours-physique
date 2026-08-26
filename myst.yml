@@ -9,18 +9,25 @@ project:
   github: https://github.com/ECE-Ecole-Ingenieurs/cours-physique
   toc:
     - file: README.md
-    - file: cours/chapitre_0.md
-    - file: cours/chapitre_1.md
+    - title: Cours
+      children:
+        - file: cours/chapitre_0.md
+        - file: cours/chapitre_1.md
+          children:
+            - file: notebooks/test_animation_chute_libre.ipynb
+        - file: cours/chapitre_2.md
+        - file: cours/chapitre_3.md
+        - file: cours/chapitre_4.md
+        - file: cours/chapitre_5.md
+        - file: cours/glossaire.md
+    - title: Travaux Pratiques
       children:
         - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
+          title: TP1 - Systèmes de coordonnées
         - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
+          title: TP2 - Trajectoire et équations horaires
         - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
-        - file: notebooks/test_animation_chute_libre.ipynb
-    - file: cours/chapitre_2.md
-    - file: cours/chapitre_3.md
-    - file: cours/chapitre_4.md
-    - file: cours/chapitre_5.md
-    - file: cours/glossaire.md
+          title: TP3 - Vitesse et accélération
 site:
   template: book-theme
   options:
