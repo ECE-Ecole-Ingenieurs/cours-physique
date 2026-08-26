@@ -34,6 +34,8 @@ project:
               title: TP4 - Chute libre sans frottement
             - file: notebooks/tp05_chute_avec_frottement_teacher.ipynb
               title: TP5 - Chute avec frottement
+            - file: notebooks/tp07_balistique_teacher.ipynb
+              title: TP7 - Balistique
 site:
   template: book-theme
   options:
