@@ -159,9 +159,9 @@ fichier).
 | TP | Contenu | Sources | État |
 |---|---|---|---|
 | TP04 | Chute libre sans frottement : équation horaire, énergies (Ec, Ep, Em) | Activité 1 (base + Q3) | ✅ fait |
-| TP05 | Résolution numérique d'une EDO : chute avec frottement (méthode d'Euler, comparaison avec `scipy`/Runge-Kutta) | Activité 2 + Sujet 2 (Viscosimètre, en application finale) | à faire |
+| TP05 | Résolution numérique d'une EDO : chute avec frottement (méthode d'Euler, comparaison avec `scipy`/Runge-Kutta) | Activité 2 + application au parachutiste ; viscosimètre encore à intégrer | ⚠️ cœur du TP fait |
 | TP06 | Mouvement sur plan incliné avec frottement | Sujet 1 (Ski de vitesse) | à faire |
-| TP07 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) | à faire |
+| TP07 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) | en cours |
 
 Raisonnement : la résolution numérique d'EDO (méthode d'Euler) est la
 première fois du cours que les étudiants résolvent une équation
@@ -178,9 +178,9 @@ plan) — ce n'est pas la même chose, contrairement au Sujet 2.
 
 ### Continuité avec les notebooks précédents
 
-- [ ] Reprendre les sujets du stage numérique, les mettre en forme et conserver
+- [x] Reprendre les sujets du stage numérique, les mettre en forme et conserver
   la même structure pédagogique que dans les premiers notebooks.
-- [ ] Relier explicitement les activités de dynamique aux outils déjà étudiés :
+- [x] Relier explicitement les activités de dynamique aux outils déjà étudiés :
   équations horaires, trajectoire, vitesse, accélération et représentation des
   forces.
 - [ ] Réutiliser, lorsque cela est pertinent, les fonctions et visualisations
@@ -190,6 +190,9 @@ plan) — ce n'est pas la même chose, contrairement au Sujet 2.
 
 - [ ] Examiner le « stage numérique » ainsi que des exemples de parachutiste
   et de plongeur.
+
+  **État :** les sources du stage numérique ont été classées et l'application
+  au parachutiste est intégrée au TP05 ; l'exemple du plongeur reste à décider.
 - [ ] Introduire des animations permettant de comparer ces différents cas.
 
 ### Balistique
@@ -287,12 +290,15 @@ d'un signal périodique). À clarifier avec l'équipe enseignante : module
   une situation physique réelle, et ne pas constituer uniquement un exemple
   mathématique supplémentaire.
 
+  **État :** le TP05 se termine par l'application au parachutiste. Les
+  applications finales des autres notebooks restent à compléter ou à valider.
+
 - [ ] Ajouter, vers la fin de chaque chapitre ou notebook, une section
   « À retenir ».
 
-  **État :** cette section existe déjà dans les notebooks 1, 2 et 3, mais doit
+  **État :** cette section existe déjà dans les notebooks 1 à 5, mais doit
   encore être généralisée aux contenus suivants.
 - [ ] Ajouter une section « Compétences acquises ».
 
-  **État :** cette section existe déjà dans les notebooks 1, 2 et 3, mais doit
+  **État :** cette section existe déjà dans les notebooks 1 à 5, mais doit
   encore être généralisée aux contenus suivants.
