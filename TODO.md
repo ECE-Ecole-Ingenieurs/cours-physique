@@ -297,9 +297,9 @@ d'un signal périodique). À clarifier avec l'équipe enseignante : module
 - [ ] Ajouter, vers la fin de chaque chapitre ou notebook, une section
   « À retenir ».
 
-  **État :** cette section existe déjà dans les notebooks 1 à 5, mais doit
-  encore être généralisée aux contenus suivants.
+  **État :** cette section existe déjà dans les TP01 à TP05 ainsi que dans le
+  TP07, mais doit encore être généralisée aux contenus suivants.
 - [ ] Ajouter une section « Compétences acquises ».
 
-  **État :** cette section existe déjà dans les notebooks 1 à 5, mais doit
-  encore être généralisée aux contenus suivants.
+  **État :** cette section existe déjà dans les TP01 à TP05 ainsi que dans le
+  TP07, mais doit encore être généralisée aux contenus suivants.
