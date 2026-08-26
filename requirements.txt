@@ -1,6 +1,7 @@
 # Numerical tools
 numpy
 matplotlib
+scipy
 
 # Jupyter
 jupyterlab
