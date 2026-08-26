@@ -22,12 +22,14 @@ project:
         - file: cours/glossaire.md
     - title: Travaux Pratiques
       children:
-        - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
-          title: TP1 - Systèmes de coordonnées
-        - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
-          title: TP2 - Trajectoire et équations horaires
-        - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
-          title: TP3 - Vitesse et accélération
+        - title: Cinématique
+          children:
+            - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
+              title: TP1 - Systèmes de coordonnées
+            - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
+              title: TP2 - Trajectoire et équations horaires
+            - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
+              title: TP3 - Vitesse et accélération
 site:
   template: book-theme
   options:
