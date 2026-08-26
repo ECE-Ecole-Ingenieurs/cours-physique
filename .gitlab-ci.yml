@@ -1,0 +1,21 @@
+image: node:22
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    # Pages GitLab de type "projet" sont servies sous /<nom-du-projet>/,
+    # il faut donc le préciser à mystmd (équivalent du BASE_URL utilisé
+    # dans le workflow GitHub Pages, .github/workflows/pages.yml).
+    - export BASE_URL="/$CI_PROJECT_NAME"
+    - npx -y mystmd build --html --ci
+    - rm -rf public
+    - mv _build/html public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH == "gitlab-pages"'

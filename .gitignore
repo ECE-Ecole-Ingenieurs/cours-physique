@@ -224,6 +224,7 @@ __marimo__/
 _build/
 docs/_build/
 site/
+public/
 
 # MacOS
 .DS_Store
