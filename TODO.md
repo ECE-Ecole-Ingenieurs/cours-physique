@@ -1,5 +1,14 @@
 # Tâches à réaliser
 
+## TP préparatoire — NumPy et Matplotlib
+
+- [ ] Finaliser un notebook d'introduction à NumPy et Matplotlib à partir des
+  supports et exercices déjà disponibles.
+- [ ] Ajouter, dans les TP de physique, des rappels numériques courts au moment
+  où une notion de NumPy ou de Matplotlib est utilisée pour la première fois.
+- [ ] Relier ces rappels aux formations NumPy et Matplotlib existantes, sans
+  reproduire intégralement leur contenu.
+
 ## Notebook 1 — Systèmes de coordonnées
 
 - [x] Ajouter une partie sur le changement de base et la projection de
@@ -119,7 +128,21 @@
   précisant leurs référentiels d'utilisation.
 - [ ] Définir avec l'équipe enseignante les questions de synthèse du bilan.
 
+  **État :** un résumé et une première question de synthèse ont été rédigés ;
+  le bloc est marqué « À revoir avec les profs » dans le notebook enseignant
+  en attendant leur validation.
+
 ## Notebook 4 — Dynamique (durée prévue : 2 h)
+
+### Continuité avec les notebooks précédents
+
+- [ ] Reprendre les sujets du stage numérique, les mettre en forme et conserver
+  la même structure pédagogique que dans les premiers notebooks.
+- [ ] Relier explicitement les activités de dynamique aux outils déjà étudiés :
+  équations horaires, trajectoire, vitesse, accélération et représentation des
+  forces.
+- [ ] Réutiliser, lorsque cela est pertinent, les fonctions et visualisations
+  développées dans les notebooks de cinématique plutôt que repartir de zéro.
 
 ### Chute libre
 
@@ -174,12 +197,33 @@
 
 ## Structure du contenu
 
+- [x] Entre les questions théoriques et le travail de programmation, ajouter un
+  bloc « Appelez le professeur » demandant aux étudiants de faire valider leurs
+  réponses avant de commencer à coder.
+
+  **Objectif :** distinguer clairement le raisonnement physique de sa mise en
+  œuvre numérique et permettre une vérification intermédiaire avec
+  l'enseignant.
+
+  **État :** conservé uniquement là où la question théorique demande une
+  véritable dérivation dont une erreur se propagerait silencieusement au
+  code (TP01 §3-4, TP03 §2-3). Retiré des sections où la question ne porte
+  que sur l'interprétation d'une formule déjà donnée (TP01 §2, TP02 §2-5),
+  où le risque de dérivation est faible.
+- [ ] Terminer chaque notebook par une application physique concrète, placée
+  dans la progression principale ou dans « Pour aller plus loin » selon sa
+  difficulté.
+
+  **Principe :** cette activité finale doit mobiliser les notions étudiées dans
+  une situation physique réelle, et ne pas constituer uniquement un exemple
+  mathématique supplémentaire.
+
 - [ ] Ajouter, vers la fin de chaque chapitre ou notebook, une section
   « À retenir ».
 
-  **État :** cette section existe déjà dans le notebook 2, mais pas dans tous
-  les contenus concernés.
+  **État :** cette section existe déjà dans les notebooks 1, 2 et 3, mais doit
+  encore être généralisée aux contenus suivants.
 - [ ] Ajouter une section « Compétences acquises ».
 
-  **État :** cette section existe déjà dans le notebook 2, mais pas dans tous
-  les contenus concernés.
+  **État :** cette section existe déjà dans les notebooks 1, 2 et 3, mais doit
+  encore être généralisée aux contenus suivants.
