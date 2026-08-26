@@ -1,0 +1,17 @@
+image: node:22
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - npx -y mystmd build --html --ci
+    - rm -rf public
+    - mv _build/html public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH == "gitlab-pages"'
