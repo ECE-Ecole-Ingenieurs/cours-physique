@@ -154,24 +154,27 @@ fichier).
 - Sujet de soutenance 3 — Badminton : balistique avec/sans frottement,
   parabole de sûreté.
 
-### Répartition proposée en TP (en discussion, pas encore validée)
+### Répartition en TP
 
-Plutôt qu'un seul notebook ou un TP par source, regrouper par famille de
-problème (même mise en équation, application différente) :
+| TP | Contenu | Sources | État |
+|---|---|---|---|
+| TP04 | Chute libre sans frottement : équation horaire, énergies (Ec, Ep, Em) | Activité 1 (base + Q3) | ✅ fait |
+| TP05 | Résolution numérique d'une EDO : chute avec frottement (méthode d'Euler, comparaison avec `scipy`/Runge-Kutta) | Activité 2 + Sujet 2 (Viscosimètre, en application finale) | à faire |
+| TP06 | Mouvement sur plan incliné avec frottement | Sujet 1 (Ski de vitesse) | à faire |
+| TP07 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) | à faire |
 
-| TP | Contenu | Sources |
-|---|---|---|
-| TP04 | Chute libre : sans frottement → avec frottement (linéaire, quadratique) | Activité 1 (base) + Activité 2 + Sujet 2 (Viscosimètre, en application finale) |
-| TP05 | Mouvement sur plan incliné avec frottement | Sujet 1 (Ski de vitesse) |
-| TP06 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) |
-
-Raisonnement : Activité 1 et Activité 2 sont séquentielles par construction
-(même axe $Oz$, complexité croissante) ; le Sujet 2 est exactement le cas de
-frottement linéaire de l'Activité 2 appliqué à un cas concret, donc fusionné
-comme application plutôt que comme TP séparé. Le Sujet 1 (plan incliné) est
-gardé à part malgré le frottement quadratique partagé avec la chute libre
-(Activité 2 partie 2), car la mise en équation change (décomposition du
-poids selon le plan) — ce n'est pas la même chose, contrairement au Sujet 2.
+Raisonnement : la résolution numérique d'EDO (méthode d'Euler) est la
+première fois du cours que les étudiants résolvent une équation
+différentielle sans solution analytique directe — cela mérite son propre
+rappel de cours et sa propre progression (Euler codé par l'étudiant →
+comparaison avec la solution exacte quand elle existe → limites d'Euler à
+grand pas de temps → `scipy`/Runge-Kutta), plutôt que d'être une simple
+sous-section de la chute libre. Le Sujet 2 (Viscosimètre) est exactement le
+cas de frottement linéaire appliqué à un cas concret, donc fusionné comme
+application plutôt que comme TP séparé. Le Sujet 1 (plan incliné) reste à
+part malgré le frottement quadratique partagé avec la chute avec
+frottement, car la mise en équation change (décomposition du poids selon le
+plan) — ce n'est pas la même chose, contrairement au Sujet 2.
 
 ### Continuité avec les notebooks précédents
 
