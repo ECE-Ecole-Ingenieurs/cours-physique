@@ -134,6 +134,26 @@
 
 ## Notebook 4 — Dynamique (durée prévue : 2 h)
 
+### Sources classées (stage numérique, dans `.temp/activites/`)
+
+Périmètre de la branche `notebook-dynamique` : uniquement les sources
+ci-dessous. Les sources liées aux oscillations ou hors mécanique du point ne
+sont pas traitées dans cette branche (voir Notebook 5 et note en fin de
+fichier).
+
+- Activité 1 (`a1/activite-1.md`, correction `corrections-activites/Activite1`)
+  — chute libre : $z(t)$, énergies cinétique/potentielle/mécanique, puis
+  balistique (Q4 : trajectoire $z(x)$ avec vitesse initiale inclinée).
+- Activité 2 (`a2/activite-2.md`, correction `corrections-activites/Activite2`)
+  — chute avec frottement linéaire (méthode d'Euler) puis quadratique
+  (régime turbulent).
+- Sujet de soutenance 1 — Ski de vitesse : descente rectiligne avec
+  frottement quadratique.
+- Sujet de soutenance 2 — Viscosimètre : chute libre avec frottement
+  linéaire (loi de Stokes).
+- Sujet de soutenance 3 — Badminton : balistique avec/sans frottement,
+  parabole de sûreté.
+
 ### Continuité avec les notebooks précédents
 
 - [ ] Reprendre les sujets du stage numérique, les mettre en forme et conserver
@@ -158,6 +178,24 @@
 - [ ] Comparer les mouvements avec et sans frottement.
 
 ## Notebook 5 — Oscillations (au moins deux notebooks)
+
+### Sources classées (stage numérique, dans `.temp/activites/`)
+
+**Non traité dans la branche `notebook-dynamique`** — à reprendre dans une
+branche dédiée à ce notebook.
+
+- Activité 3 (`a3/activite-3.md`, correction
+  `corrections-activites/Activite3_Oscillation`) — oscillateur amorti
+  (ressort + frottement fluide, facteur de qualité Q), oscillateur de
+  Van der Pol, circuit RLC amorti.
+- Activité 4 (`a4/activite-4.md`, correction `corrections-activites/Activite4`)
+  — oscillations forcées, diagramme de Bode, résonance.
+- Sujets de soutenance 4 et 5 — Balançoire 1/2 : pendule sans frottement,
+  approximation des petits angles vs solution exacte.
+- Sujet de soutenance 6 — Balançoire 3 : pendule avec frottement.
+- Sujet de soutenance 7 — Camion sur route ondulée : oscillations forcées,
+  résonance.
+- Sujet de soutenance 8 — Circuit LC-RLC : oscillations électriques.
 
 ### Généralités
 
@@ -194,6 +232,15 @@
   - [ ] circuit LC ;
   - [ ] circuit RLC.
 - [ ] Rechercher des exemples concrets et parlants.
+
+## Hors périmètre (autre module ?)
+
+Sources du stage numérique qui ne relèvent pas de la mécanique du point et ne
+correspondent à aucun notebook prévu ci-dessus : Activité 5 (résolution de
+circuits linéaires par pivot de Gauss, analyse nodale), Activité 6 (série de
+Fourier), Sujet de soutenance 9 (circuit à AOP), Sujets 10 et 11 (débruitage
+d'un signal périodique). À clarifier avec l'équipe enseignante : module
+électronique/traitement du signal distinct, ou à intégrer autrement ?
 
 ## Structure du contenu
 
