@@ -13,8 +13,6 @@ project:
       children:
         - file: cours/chapitre_0.md
         - file: cours/chapitre_1.md
-          children:
-            - file: notebooks/test_animation_chute_libre.ipynb
         - file: cours/chapitre_2.md
         - file: cours/chapitre_3.md
         - file: cours/chapitre_4.md
@@ -22,12 +20,22 @@ project:
         - file: cours/glossaire.md
     - title: Travaux Pratiques
       children:
-        - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
-          title: TP1 - Systèmes de coordonnées
-        - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
-          title: TP2 - Trajectoire et équations horaires
-        - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
-          title: TP3 - Vitesse et accélération
+        - title: Cinématique
+          children:
+            - file: notebooks/tp01_coordonnees_cylindriques_cartesiennes_teacher.ipynb
+              title: TP1 - Systèmes de coordonnées
+            - file: notebooks/tp02_trajectoire_equations_horaires_teacher.ipynb
+              title: TP2 - Trajectoire et équations horaires
+            - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
+              title: TP3 - Vitesse et accélération
+        - title: Dynamique
+          children:
+            - file: notebooks/tp04_chute_libre_frottements_teacher.ipynb
+              title: TP4 - Chute libre sans frottement
+            - file: notebooks/tp05_chute_avec_frottement_teacher.ipynb
+              title: TP5 - Chute avec frottement
+            - file: notebooks/tp07_balistique_teacher.ipynb
+              title: TP7 - Balistique
 site:
   template: book-theme
   options:

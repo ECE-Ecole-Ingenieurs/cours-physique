@@ -1,3 +1,6 @@
 *.ipynb filter=nbstripout
 *.zpln filter=nbstripout
 *.ipynb diff=ipynb
+
+# Les notebooks enseignant conservent leurs sorties statiques pour MyST.
+notebooks/*_teacher.ipynb -filter

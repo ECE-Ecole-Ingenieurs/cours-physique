@@ -134,11 +134,53 @@
 
 ## Notebook 4 — Dynamique (durée prévue : 2 h)
 
+### Sources classées (stage numérique, dans `.temp/activites/`)
+
+Périmètre de la branche `notebook-dynamique` : uniquement les sources
+ci-dessous. Les sources liées aux oscillations ou hors mécanique du point ne
+sont pas traitées dans cette branche (voir Notebook 5 et note en fin de
+fichier).
+
+- Activité 1 (`a1/activite-1.md`, correction `corrections-activites/Activite1`)
+  — chute libre : $z(t)$, énergies cinétique/potentielle/mécanique, puis
+  balistique (Q4 : trajectoire $z(x)$ avec vitesse initiale inclinée).
+- Activité 2 (`a2/activite-2.md`, correction `corrections-activites/Activite2`)
+  — chute avec frottement linéaire (méthode d'Euler) puis quadratique
+  (régime turbulent).
+- Sujet de soutenance 1 — Ski de vitesse : descente rectiligne avec
+  frottement quadratique.
+- Sujet de soutenance 2 — Viscosimètre : chute libre avec frottement
+  linéaire (loi de Stokes).
+- Sujet de soutenance 3 — Badminton : balistique avec/sans frottement,
+  parabole de sûreté.
+
+### Répartition en TP
+
+| TP | Contenu | Sources | État |
+|---|---|---|---|
+| TP04 | Chute libre sans frottement : équation horaire, énergies (Ec, Ep, Em) | Activité 1 (base + Q3) | ✅ fait |
+| TP05 | Résolution numérique d'une EDO : chute avec frottement (méthode d'Euler, comparaison avec `scipy`/Runge-Kutta) | Activité 2 + application au parachutiste ; viscosimètre encore à intégrer | ⚠️ cœur du TP fait |
+| TP06 | Mouvement sur plan incliné avec frottement | Sujet 1 (Ski de vitesse) | à faire |
+| TP07 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) | ✅ fait |
+
+Raisonnement : la résolution numérique d'EDO (méthode d'Euler) est la
+première fois du cours que les étudiants résolvent une équation
+différentielle sans solution analytique directe — cela mérite son propre
+rappel de cours et sa propre progression (Euler codé par l'étudiant →
+comparaison avec la solution exacte quand elle existe → limites d'Euler à
+grand pas de temps → `scipy`/Runge-Kutta), plutôt que d'être une simple
+sous-section de la chute libre. Le Sujet 2 (Viscosimètre) est exactement le
+cas de frottement linéaire appliqué à un cas concret, donc fusionné comme
+application plutôt que comme TP séparé. Le Sujet 1 (plan incliné) reste à
+part malgré le frottement quadratique partagé avec la chute avec
+frottement, car la mise en équation change (décomposition du poids selon le
+plan) — ce n'est pas la même chose, contrairement au Sujet 2.
+
 ### Continuité avec les notebooks précédents
 
-- [ ] Reprendre les sujets du stage numérique, les mettre en forme et conserver
+- [x] Reprendre les sujets du stage numérique, les mettre en forme et conserver
   la même structure pédagogique que dans les premiers notebooks.
-- [ ] Relier explicitement les activités de dynamique aux outils déjà étudiés :
+- [x] Relier explicitement les activités de dynamique aux outils déjà étudiés :
   équations horaires, trajectoire, vitesse, accélération et représentation des
   forces.
 - [ ] Réutiliser, lorsque cela est pertinent, les fonctions et visualisations
@@ -148,16 +190,37 @@
 
 - [ ] Examiner le « stage numérique » ainsi que des exemples de parachutiste
   et de plongeur.
+
+  **État :** les sources du stage numérique ont été classées et l'application
+  au parachutiste est intégrée au TP05 ; l'exemple du plongeur reste à décider.
 - [ ] Introduire des animations permettant de comparer ces différents cas.
 
 ### Balistique
 
-- [ ] Réaliser une étude paramétrique faisant varier les conditions initiales :
+- [x] Réaliser une étude paramétrique faisant varier les conditions initiales :
   $v_0$, $h_0$ et $\theta_0$.
-- [ ] Introduire la parabole de sûreté.
-- [ ] Comparer les mouvements avec et sans frottement.
+- [x] Introduire la parabole de sûreté.
+- [x] Comparer les mouvements avec et sans frottement.
 
 ## Notebook 5 — Oscillations (au moins deux notebooks)
+
+### Sources classées (stage numérique, dans `.temp/activites/`)
+
+**Non traité dans la branche `notebook-dynamique`** — à reprendre dans une
+branche dédiée à ce notebook.
+
+- Activité 3 (`a3/activite-3.md`, correction
+  `corrections-activites/Activite3_Oscillation`) — oscillateur amorti
+  (ressort + frottement fluide, facteur de qualité Q), oscillateur de
+  Van der Pol, circuit RLC amorti.
+- Activité 4 (`a4/activite-4.md`, correction `corrections-activites/Activite4`)
+  — oscillations forcées, diagramme de Bode, résonance.
+- Sujets de soutenance 4 et 5 — Balançoire 1/2 : pendule sans frottement,
+  approximation des petits angles vs solution exacte.
+- Sujet de soutenance 6 — Balançoire 3 : pendule avec frottement.
+- Sujet de soutenance 7 — Camion sur route ondulée : oscillations forcées,
+  résonance.
+- Sujet de soutenance 8 — Circuit LC-RLC : oscillations électriques.
 
 ### Généralités
 
@@ -195,6 +258,15 @@
   - [ ] circuit RLC.
 - [ ] Rechercher des exemples concrets et parlants.
 
+## Hors périmètre (autre module ?)
+
+Sources du stage numérique qui ne relèvent pas de la mécanique du point et ne
+correspondent à aucun notebook prévu ci-dessus : Activité 5 (résolution de
+circuits linéaires par pivot de Gauss, analyse nodale), Activité 6 (série de
+Fourier), Sujet de soutenance 9 (circuit à AOP), Sujets 10 et 11 (débruitage
+d'un signal périodique). À clarifier avec l'équipe enseignante : module
+électronique/traitement du signal distinct, ou à intégrer autrement ?
+
 ## Structure du contenu
 
 - [x] Entre les questions théoriques et le travail de programmation, ajouter un
@@ -218,12 +290,16 @@
   une situation physique réelle, et ne pas constituer uniquement un exemple
   mathématique supplémentaire.
 
+  **État :** le TP05 se termine par l'application au parachutiste et le TP07
+  par l'étude du volant de badminton. Les applications finales des autres
+  notebooks restent à compléter ou à valider.
+
 - [ ] Ajouter, vers la fin de chaque chapitre ou notebook, une section
   « À retenir ».
 
-  **État :** cette section existe déjà dans les notebooks 1, 2 et 3, mais doit
-  encore être généralisée aux contenus suivants.
+  **État :** cette section existe déjà dans les TP01 à TP05 ainsi que dans le
+  TP07, mais doit encore être généralisée aux contenus suivants.
 - [ ] Ajouter une section « Compétences acquises ».
 
-  **État :** cette section existe déjà dans les notebooks 1, 2 et 3, mais doit
-  encore être généralisée aux contenus suivants.
+  **État :** cette section existe déjà dans les TP01 à TP05 ainsi que dans le
+  TP07, mais doit encore être généralisée aux contenus suivants.
