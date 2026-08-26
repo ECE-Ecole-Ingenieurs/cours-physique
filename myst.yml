@@ -31,7 +31,9 @@ project:
         - title: Dynamique
           children:
             - file: notebooks/tp04_chute_libre_frottements_teacher.ipynb
-              title: TP4 - Chute libre
+              title: TP4 - Chute libre sans frottement
+            - file: notebooks/tp05_chute_avec_frottement_teacher.ipynb
+              title: TP5 - Chute avec frottement
 site:
   template: book-theme
   options:
