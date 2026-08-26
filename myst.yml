@@ -30,6 +30,10 @@ project:
               title: TP2 - Trajectoire et équations horaires
             - file: notebooks/tp03_vitesse_acceleration_mouvement_circulaire_teacher.ipynb
               title: TP3 - Vitesse et accélération
+        - title: Dynamique
+          children:
+            - file: notebooks/tp04_chute_libre_frottements_teacher.ipynb
+              title: TP4 - Chute libre et frottements
 site:
   template: book-theme
   options:
