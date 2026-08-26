@@ -161,7 +161,7 @@ fichier).
 | TP04 | Chute libre sans frottement : équation horaire, énergies (Ec, Ep, Em) | Activité 1 (base + Q3) | ✅ fait |
 | TP05 | Résolution numérique d'une EDO : chute avec frottement (méthode d'Euler, comparaison avec `scipy`/Runge-Kutta) | Activité 2 + application au parachutiste ; viscosimètre encore à intégrer | ⚠️ cœur du TP fait |
 | TP06 | Mouvement sur plan incliné avec frottement | Sujet 1 (Ski de vitesse) | à faire |
-| TP07 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) | en cours |
+| TP07 | Balistique : sans frottement → avec frottement, parabole de sûreté | Activité 1 (Q4) + Sujet 3 (Badminton, en application finale) | ✅ fait |
 
 Raisonnement : la résolution numérique d'EDO (méthode d'Euler) est la
 première fois du cours que les étudiants résolvent une équation
@@ -197,10 +197,10 @@ plan) — ce n'est pas la même chose, contrairement au Sujet 2.
 
 ### Balistique
 
-- [ ] Réaliser une étude paramétrique faisant varier les conditions initiales :
+- [x] Réaliser une étude paramétrique faisant varier les conditions initiales :
   $v_0$, $h_0$ et $\theta_0$.
-- [ ] Introduire la parabole de sûreté.
-- [ ] Comparer les mouvements avec et sans frottement.
+- [x] Introduire la parabole de sûreté.
+- [x] Comparer les mouvements avec et sans frottement.
 
 ## Notebook 5 — Oscillations (au moins deux notebooks)
 
@@ -290,8 +290,9 @@ d'un signal périodique). À clarifier avec l'équipe enseignante : module
   une situation physique réelle, et ne pas constituer uniquement un exemple
   mathématique supplémentaire.
 
-  **État :** le TP05 se termine par l'application au parachutiste. Les
-  applications finales des autres notebooks restent à compléter ou à valider.
+  **État :** le TP05 se termine par l'application au parachutiste et le TP07
+  par l'étude du volant de badminton. Les applications finales des autres
+  notebooks restent à compléter ou à valider.
 
 - [ ] Ajouter, vers la fin de chaque chapitre ou notebook, une section
   « À retenir ».
