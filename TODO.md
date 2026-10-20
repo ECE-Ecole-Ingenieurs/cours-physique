@@ -178,6 +178,8 @@ plan) — ce n'est pas la même chose, contrairement au Sujet 2.
 
 ### Continuité avec les notebooks précédents
 
+- [ ] Faire valider par l'équipe enseignante le contenu, le niveau de
+  difficulté et la progression pédagogique des TP04 et TP05.
 - [x] Reprendre les sujets du stage numérique, les mettre en forme et conserver
   la même structure pédagogique que dans les premiers notebooks.
 - [x] Relier explicitement les activités de dynamique aux outils déjà étudiés :
